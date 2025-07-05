@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300..700&family=Sansation:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-principal: #242643;
+    --cor-secundaria: #3d4069;
+    --cor-terciaria: #1c1c1c;
+    --cor-destaque: #fa6632;
+    --cor-texto: #f1f1f1;
+
+    --fonte-texto: "Red Hat Text", sans-serif;
+}
+
+body {
+    background-color: var(--cor-principal);
+    color: var(--cor-texto);
+    font-family: var(--fonte-texto);
+}

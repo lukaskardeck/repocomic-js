@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="/styles/index-tablet.css" />
+    <link rel="stylesheet" href="/styles/index-phone.css" />
+
+    <title>REPOCOMICS</title>
+</head>
+<body>
+    <!-- Header dinâmico -->
+    <div id="header"></div>
+
+    <main>
+        <!-- APRESENTAÇÃO INICIAL DO SITE -->
+        <section class="container_initial">
+            <section class="introduction">
+                <div>
+                    <h1>
+                        Boas vindas ao
+                        <span class="logo_repocomics"> REPOCOMICS </span>
+                    </h1>
+                    <p>
+                        Mergulhe nas histórias, personagens e quadrinhos que
+                        marcaram gerações
+                    </p>
+                </div>
+                <div class="btns">
+                    <a href="./pages/publisher/publisher.html?publisher=marvel" class="btn_publisher btn_marvel">MARVEL</a>
+                    <a href="./pages/publisher/publisher.html?publisher=dc" class="btn_publisher btn_dc_comics">DC COMICS</a>
+                </div>
+            </section>
+        </section>
+
+        <!-- SEGUNDA SEÇÃO - PERSONAGENS PREDILETOS -->
+        <section id="section_characters" class="section_comics">
+            <h2>Os personagens prediletos da comunidade</h2>
+            <div class="list_characters">
+                <a href="./pages/publisher/marvel/characters/spider-man/spider-man.html" class="character">
+                    <div
+                        class="character_img"
+                        style="background-image: url('./pages/publisher/marvel/characters/spider-man/images/spiderman.png');"
+                    ></div>
+                    <div class="character_name">
+                        <p>Homem-Aranha</p>
+                        <p>(Peter Parker)</p>
+                    </div>
+                </a>
+
+                <a href="#" class="character">
+                    <div
+                        class="character_img"
+                        style="background-image: url('./pages/publisher/marvel/characters/captain-america/images/captain-america.png');"
+                    ></div>
+                    <div class="character_name">
+                        <p>Capitão América</p>
+                        <p>(Steve Rogers)</p>
+                    </div>
+                </a>
+
+                <a href="./pages/publisher/dc_comics/characters/batman/batman.html" class="character">
+                    <div
+                        class="character_img"
+                        style="background-image: url('./pages/publisher/dc_comics/characters/batman/images/batman.png');"
+                    ></div>
+                    <div class="character_name">
+                        <p>Batman</p>
+                        <p>(Bruce Wayne)</p>
+                    </div>
+                </a>
+
+                <a href="#" class="character">
+                    <div
+                        class="character_img"
+                        style="background-image: url('./pages/publisher/dc_comics/characters/flash/images/flash.png');"
+                    ></div>
+                    <div class="character_name">
+                        <p>Flash</p>
+                        <p>(Barry Allen)</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- TERCEIRA SEÇÃO - QUADRINHOS RECOMENDADOS -->
+        <section class="section_comics">
+            <h2>Recomendados desta semana</h2>
+            <div class="list_comics">
+                <a href="#" class="comic">
+                    <div
+                        class="comic_img"
+                        style="background-image: url('./pages/publisher/marvel/characters/spider-man/images/comics/3-the-amazing-33.png');"
+                    ></div>
+                    <div class="comic_description">
+                        <p>The Amazing Spider-Man #33</p>
+                        <p class="comic_year">1965</p>
+                    </div>
+                </a>
+
+                <a href="#" class="comic">
+                    <div
+                        class="comic_img"
+                        style="background-image: url('./pages/publisher/marvel/team/avengers/images/comics/2-avengers-4.png');"
+                    ></div>
+                    <div class="comic_description">
+                        <p>Avengers #4</p>
+                        <p class="comic_year">1964</p>
+                    </div>
+                </a>
+
+                <a href="#" class="comic">
+                    <div
+                        class="comic_img"
+                        style="background-image: url('./pages/publisher/dc_comics/characters/batman/images/comics/1-year-one.png');"
+                    ></div>
+                    <div class="comic_description">
+                        <p>Batman: Year One</p>
+                        <p class="comic_year">1987</p>
+                    </div>
+                </a>
+
+                <a href="#" class="comic">
+                    <div
+                        class="comic_img"
+                        style="background-image: url('./pages/publisher/dc_comics/team/justice/images/comics/1-ano-um.png');"
+                    ></div>
+                    <div class="comic_description">
+                        <p>JLA: Year one</p>
+                        <p class="comic_year">1998</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer dinâmico -->
+    <div id="footer"></div>
+
+    <!-- JavaScript -->
+    <script type="module" src="/components/js/includeComponents.js"></script>
+</body>
+</html>

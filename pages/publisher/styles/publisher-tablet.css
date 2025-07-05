@@ -1,0 +1,83 @@
+@media (max-width: 900px) {
+    /* 
+        =========================
+            BANNER PRINCIPAL
+        =========================
+    */
+    .banner_marvel {
+        background-size: cover;
+        height: 450px;
+    }
+
+    /* 
+        =========================
+            CONTEÚDO PRINCIPAL
+        =========================
+    */
+    main .introduction_marvel p {
+        font-size: 16px;
+        text-align: justify;
+        margin-bottom: 24px;
+        text-indent: 3em;
+        line-height: 2em;
+    }
+
+    /* 
+        =========================
+            SUGESTÃO DE USUARIO
+        ========================= 
+    */
+    .sugestao_usuario {
+        background-color: var(--cor-terciaria);
+        padding: 32px 24px;
+        max-width: 800px;
+        margin: 32px auto;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+        text-align: center;
+    }
+
+    .sugestao_usuario h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .sugestao_usuario p {
+        font-size: 0.9em;
+        margin-bottom: 30px;
+        color: #aaa;
+    }
+
+    .sugestao_usuario form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        text-align: left;
+    }
+
+    .sugestao_usuario input,
+    .sugestao_usuario textarea {
+        font-family: var(--fonte-texto);
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #aaa;
+        border-radius: 6px;
+        font-size: 1rem;
+    }
+
+    .sugestao_usuario button {
+        background-color: var(--cor-secundaria);
+        color: var(--cor-texto);
+        border: none;
+        padding: 12px;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .sugestao_usuario button:hover {
+        background-color: var(--cor-destaque);
+    }
+    
+}

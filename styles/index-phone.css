@@ -1,0 +1,113 @@
+@media (max-width: 600px) {
+    /* 
+        =========================
+            SEÇÃO INICIAL 
+        =========================
+    */
+
+    .container_initial {
+        grid-template-columns: 1fr;
+        padding: 20vw 3.5vw;
+    }
+
+    .container_initial section.introduction {
+        gap: 12vw;
+    }
+
+    .container_initial section.introduction h1 {
+        font-size: 10vw;
+    }
+
+    .container_initial section.introduction h1 span {
+        text-shadow: 0.4vw 0.4vw 0 var(--cor-terciaria);
+    }
+
+    .container_initial section.introduction p {
+        font-size: 3.5vw;
+    }
+
+    .container_initial section.introduction .btns {
+        gap: 4vw;
+    }
+
+    .container_initial section.introduction .btn_publisher {
+        height: 9vw;
+        padding: 0 2vw;
+        font-size: 3vw;
+    }
+
+    .container_initial section.imgs_profile_person {
+        display: none;
+    }
+
+    /* 
+        =========================
+            SEÇÕES EM GERAL
+        =========================
+    */
+
+    .section_comics {
+        padding: 5vw;
+    }
+
+    .section_comics h2 {
+        font-size: 6vw;
+        margin-bottom: 4.5vw;
+    }
+
+    /* 
+        =========================
+            SEGUNDA SEÇÃO: PERSONAGENS
+        =========================
+    */
+    .section_comics .list_characters {
+        grid-template-columns: 1fr;
+        gap: 5vw;
+    }
+
+    .section_comics .list_characters a.character {
+        width: 90%;
+    }
+
+    .section_comics .list_characters a.character .character_img {
+        height: auto;
+        aspect-ratio: 4/3;
+        width: 100%;
+    }
+
+    .section_comics .list_characters a.character .character_name {
+        padding: 3vw;
+        font-size: 4vw;
+    }
+
+    /* 
+        =========================
+            TERCEIRA SEÇÃO: QUADRINHOS
+        =========================
+    */
+    .section_comics .list_comics {
+        grid-template-columns: 1fr;
+        gap: 5vw;
+    }
+
+    .section_comics .list_comics a.comic {
+        width: 70%;
+    }
+
+    .section_comics .list_comics a.comic .comic_img {
+        aspect-ratio: 2 / 3;
+        width: 100%;
+        background-color: antiquewhite;
+        max-width: 450px;
+    }
+
+    .section_comics .list_comics a.comic .comic_description {
+        padding: 4vw 0;
+        font-size: 4.5vw;
+    }
+
+    .section_comics .list_comics a.comic .comic_description .comic_year {
+        font-size: 3vw;
+    }
+
+}

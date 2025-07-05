@@ -1,0 +1,138 @@
+@media (max-width: 600px) {
+    /* 
+    =========================
+        BANNER PRINCIPAL
+    =========================
+*/
+    .banner_marvel {
+        background-size: cover;
+        height: 70vw;
+    }
+
+    .banner_marvel .logo_marvel {
+        width: 35vw;
+    }
+
+    /* 
+    =========================
+        CONTEÚDO PRINCIPAL
+    =========================
+*/
+    main {
+        width: 90%;
+        padding: 4vw 0px;
+    }
+
+    main .introduction_marvel p {
+        font-size: 4vw;
+        text-align: justify;
+        margin-bottom: 4vw;
+        text-indent: 10vw;
+        line-height: 7vw;
+    }
+
+    /*
+    =========================
+        SEÇÕES: PERSONAGENS, EQUIPES, QUADRINHOS
+    =========================
+*/
+    .section_comics {
+        padding: 5vw 3vw;
+    }
+
+    .section_comics h2 {
+        font-size: 7vw;
+        margin-bottom: 4vw;
+    }
+
+    /* Grade de cards */
+    .list_characters {
+        grid-template-columns: 1fr;
+        gap: 3vw 2vw;
+    }
+
+    /* Cada card de personagem/equipe/quadrinho */
+    .character {
+        border-radius: 8px;
+        padding: 1.5vw;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+        width: 100%;
+        max-width: 65vw;
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+    }
+
+    .character:hover {
+        cursor: pointer;
+        transform: scale(1.02);
+        background-color: var(--cor-destaque);
+    }
+
+    .character_img {
+        aspect-ratio: 4/5;
+    }
+
+    .character p {
+        font-size: 4vw;
+    }
+
+    /*
+    =========================
+        SEÇÃO: EQUIPE
+    =========================
+*/
+
+    .equipe {
+        max-width: 75vw;
+    }
+
+    .equipe_img {
+        aspect-ratio: 4/3;
+    }
+
+    /* 
+    =========================
+        SUGESTÃO DE USUARIO
+    ========================= 
+*/
+    .sugestao_usuario {
+        padding: 5vw 3vw;
+        margin: 5vw auto;
+    }
+
+    .sugestao_usuario h2 {
+        font-size: 6vw;
+        margin-bottom: 1.5vw;
+    }
+
+    .sugestao_usuario p {
+        font-size: 3vw;
+        margin-bottom: 4vw;
+        color: #aaa;
+    }
+
+    .sugestao_usuario form {
+        gap: 3vw;
+    }
+
+    .sugestao_usuario form label {
+        font-size: 4vw;
+    }
+
+    .sugestao_usuario input,
+    .sugestao_usuario textarea {
+        padding: 3vw;
+        border: 1px solid #aaa;
+        border-radius: 6px;
+        font-size: 3vw;
+    }
+
+    .sugestao_usuario button {
+        padding: 3.5vw;
+        border-radius: 6px;
+        font-size: 3.5vw;
+    }
+
+}

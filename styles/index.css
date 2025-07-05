@@ -1,0 +1,196 @@
+/* 
+    =========================
+        SEÇÃO INICIAL 
+    =========================
+*/
+.container_initial {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 16px;
+    padding: 120px 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url("../images/bg-section-initial.jpg");
+    background-position: bottom;
+    background-size: 100% 170%;
+    /* background-size: cover; */
+    background-blend-mode: multiply;
+}
+
+.container_initial section.introduction {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 64px;
+}
+
+.container_initial section.introduction h1 {
+    font-size: 3em;
+}
+
+.container_initial section.introduction h1 span {
+   text-shadow: 2px 2px 0 var(--cor-terciaria);
+}
+
+.container_initial section.introduction .btns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    align-items: end;
+}
+
+.container_initial section.introduction .btn_publisher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    background-color: var(--cor-destaque);
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    color: var(--cor-texto);
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.container_initial section.introduction .btn_publisher:hover {
+    transform: translateY(-2px);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+}
+
+.container_initial section.introduction .btn_publisher:active {
+    transform: scale(1);
+}
+
+.container_initial section.introduction .btn_marvel:hover {
+    background-color: #b3001b;
+}
+
+.container_initial section.introduction .btn_dc_comics:hover {
+    background-color: #0050b3;
+}
+
+.container_initial section.imgs_profile_person {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: right;
+    justify-content: right;
+    gap: 16px;
+}
+
+.container_initial section.imgs_profile_person div {
+    width: 125px;
+    height: 125px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* 
+    =========================
+        SEÇÕES EM GERAL
+    =========================
+*/
+.section_comics {
+    padding: 40px;
+}
+
+.section_comics h2 {
+    font-size: 2em;
+    margin-bottom: 48px;
+}
+
+/* 
+    =========================
+        SEGUNDA SEÇÃO: PERSONAGENS
+    =========================
+*/
+#section_characters {
+    background-color: var(--cor-secundaria);
+}
+
+.section_comics .list_characters {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 4px;
+}
+
+.section_comics .list_characters a.character {
+    background-color: var(--cor-principal);
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.section_comics .list_characters a.character:hover {
+    background-color: var(--cor-destaque);
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.section_comics .list_characters a.character .character_img {
+    height: 270px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.section_comics .list_characters a.character .character_name {
+    padding: 12px;
+    font-size: 14px;
+}
+
+/* 
+    =========================
+        TERCEIRA SEÇÃO: QUADRINHOS
+    =========================
+*/
+.section_comics .list_comics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 16px;
+}
+
+.section_comics .list_comics a.comic {
+    background-color: var(--cor-principal);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    color: inherit;
+}
+
+.section_comics .list_comics a.comic:hover {
+    color: var(--cor-destaque);
+}
+
+.section_comics .list_comics a.comic .comic_img {
+    aspect-ratio: 2 / 3;
+    width: 100%;
+    max-width: 250px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section_comics .list_comics a.comic .comic_description {
+    padding: 12px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.section_comics .list_comics a.comic .comic_description .comic_year {
+    font-size: 12px;
+    color: #aaa;
+}

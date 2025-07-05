@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/pages/publisher/styles/publisher.css" />
+    <link rel="stylesheet" href="/pages/publisher/styles/publisher-tablet.css" />
+    <link rel="stylesheet" href="/pages/publisher/styles/publisher-phone.css" />
+
+    <title>Editora | REPOCOMICS</title>
+</head>
+<body>
+    <div id="header"></div>
+
+    <figure id="banner" class="banner_marvel"></figure>
+
+    <main>
+        <section id="publisherIntro" class="introduction_marvel"></section>
+
+        <hr />
+
+        <section class="section_comics">
+            <h2>Personagens</h2>
+            <div id="characters" class="list_characters"></div>
+        </section>
+
+        <hr />
+
+        <section class="section_comics">
+            <h2>Equipes</h2>
+            <div id="teams" class="list_characters equipes"></div>
+        </section>
+
+        <hr />
+
+        <section class="sugestao_usuario">
+            <h2>Está sentindo falta de alguém?</h2>
+            <p>Conte pra gente se faltou algum personagem ou equipe importante nesta página.</p>
+            <form action="#" method="POST">
+                <label for="nome">Seu nome</label>
+                <input type="text" id="nome" name="nome" required maxlength="50" placeholder="Ex: Lukas, fã do Spider-man" />
+
+                <label for="sugestao">Quem está faltando?</label>
+                <textarea id="sugestao" name="sugestao" required rows="4" placeholder="Ex: Faltou o Cavaleiro da Lua!"></textarea>
+
+                <button type="submit">Enviar sugestão</button>
+            </form>
+        </section>
+    </main>
+
+    <div id="footer"></div>
+
+    <script src="/components/js/includeComponents.js"></script>
+    <script src="/pages/publisher/js/publisherLoad.js"></script>
+</body>
+</html>

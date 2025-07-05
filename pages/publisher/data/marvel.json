@@ -1,0 +1,50 @@
+{
+  "banner": {
+    "backgroundImage": "images/bg_marvel_black.jpg",
+    "logo": "images/marvel_comics.png",
+    "alt": "Logo Marvel"
+  },
+  "description": [
+    "Em 1939, a <strong>Marvel Comics</strong>, uma editora norte-americana de mídias relacionadas, surgiu como uma criação de <strong>Martin Goodman</strong>, com um enfoque direto na criação de histórias em quadrinhos. Entretanto, a companhia nem sempre foi conhecida como Marvel, sendo inicialmente chamada de Timely Comics. A primeira revista da empresa foi publicada naquele mesmo ano, apresentando os primeiros personagens: o Tocha Humana, futuro integrante do Quarteto Fantástico (um dos sucessos da firma), e o Namor, Príncipe Submarino, o qual, recentemente, ganhou uma adaptação paras as telonas no filme Pantera Negra: Wakanda para Sempre.",
+
+    "A Marvel se tornou uma das editoras mais influentes da cultura pop. Criadora de personagens icônicos como <strong>Homem-Aranha</strong>, <strong>Homem de Ferro</strong> e <strong>Capitão América</strong>, ela revolucionou os quadrinhos ao introduzir heróis mais humanos e complexos. Grandes sagas como <em>Guerra Civil<em> e <em>O Desafio Infinito</em> marcaram a história dos quadrinhos e continuam influenciando o cinema e a TV."
+  ],
+  "characters": [
+    {
+      "name": "Homem-Aranha",
+      "image": "characters/spider-man/images/spiderman.png",
+      "link": "characters/spider-man/spider-man.html"
+    },
+    {
+      "name": "Homem de Ferro",
+      "image": "characters/iron-man/images/iron-man.png"
+    },
+    {
+      "name": "Capitão América",
+      "image": "characters/captain-america/images/captain-america.png"
+    },
+    {
+      "name": "Hulk",
+      "image": "characters/hulk/images/hulk.png"
+    },
+    {
+      "name": "Thor",
+      "image": "characters/thor/images/thor.png"
+    }
+  ],
+  "teams": [
+    {
+      "name": "Vingadores",
+      "image": "team/avengers/images/avengers.png",
+      "link": "team/avengers/avengers.html"
+    },
+    {
+      "name": "X-Men",
+      "image": "team/xmen/images/xmen.png"
+    },
+    {
+      "name": "Guardiões da Galáxia",
+      "image": "team/guardians/images/guardians.png"
+    }
+  ]
+}

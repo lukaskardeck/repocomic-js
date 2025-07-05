@@ -1,0 +1,94 @@
+/* 
+    =========================
+        CABEÇALHO 
+    =========================
+*/
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: var(--cor-principal);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid var(--cor-terciaria);
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding: 20px 40px;
+    width: 100%;
+    height: 100%;
+}
+
+.logo_repocomics {
+    font-family: "Sansation", sans-serif;
+    color: var(--cor-destaque);
+    font-weight: bold;
+}
+
+header p.logo_repocomics {
+    font-size: 18px;
+}
+
+header p.logo_repocomics a {
+    font-size: 18px;
+    color: var(--cor-destaque);
+    text-decoration: none;
+}
+
+header nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    text-align: center;
+    justify-items: right;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-size: 16px;
+    position: relative;
+    padding: 0 5px;
+}
+
+header nav ul li a::after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: var(--cor-destaque);
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+header nav ul li a:hover:after {
+    width: 100%;
+}
+
+header nav ul li span.ativo {
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding: 0 5px;
+}
+
+header nav ul li span.ativo::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: var(--cor-destaque);
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+}
+
+/* Oculta o checkbox do menu */
+#menu-toggle {
+    display: none;
+}
+
+/* Ícone do menu hamburguer */
+.hamburger {
+    display: none;
+}

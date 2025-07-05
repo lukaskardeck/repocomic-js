@@ -1,0 +1,25 @@
+@media (max-width: 900px) {
+    /* 
+        =========================
+            CABEÇALHO
+        =========================
+    */
+
+    header {
+        grid-template-columns: 1fr;
+    }
+
+    header p.logo_repocomics {
+        font-size: 24px;
+        text-align: center;
+        padding-bottom: 24px;
+    }
+
+    header p.logo_repocomics a {
+        font-size: 24px;
+    }
+
+    header nav ul {
+        justify-items: center;
+    }
+}

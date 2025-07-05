@@ -1,0 +1,185 @@
+/* 
+    =========================
+        BANNER PRINCIPAL
+    =========================
+*/
+.banner_marvel {
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: 100% 100%;
+    background-position: center;
+    background-blend-mode: multiply;
+    height: 570px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_marvel .logo_marvel {
+    width: 300px;
+}
+
+/* 
+    =========================
+        CONTEÚDO PRINCIPAL
+    =========================
+*/
+main {
+    margin: auto;
+    width: 80%;
+    padding: 24px 0px;
+}
+
+main .introduction_marvel p {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 24px;
+    text-indent: 3em;
+    line-height: 2em;
+}
+
+main .introduction_marvel p strong {
+    color: var(--cor-destaque);
+}
+
+/*
+    =========================
+        SEÇÕES: PERSONAGENS
+    =========================
+*/
+
+.character {
+  background-color: var(--cor-secundaria);
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-decoration: none;
+  color: inherit;
+  align-items: center;
+}
+
+.character:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: var(--cor-destaque);
+}
+
+.character_img {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  background-color: #eee;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+}
+
+.character p {
+  font-weight: bold;
+}
+
+/* SEÇÕES */
+.section_comics {
+  padding: 48px 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.section_comics h2 {
+  font-size: 2rem;
+  margin-bottom: 32px;
+}
+
+/* Grade dos cards */
+.list_characters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px 12px;
+  justify-items: center;
+}
+
+
+
+/*
+    =========================
+        SEÇÕES: EQUIPES
+    =========================
+*/
+.equipes {
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 20px 12px;
+}
+
+.equipe {
+  max-width: 370px;
+}
+
+.equipe_img {
+  aspect-ratio: 4/3;
+}
+
+/* 
+    =========================
+        SUGESTÃO DE USUARIO
+    ========================= 
+*/
+.sugestao_usuario {
+    background-color: var(--cor-terciaria);
+    padding: 48px 20px;
+    max-width: 800px;
+    margin: 32px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.sugestao_usuario h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.sugestao_usuario p {
+    margin-bottom: 30px;
+    color: #aaa;
+}
+
+.sugestao_usuario form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.sugestao_usuario input,
+.sugestao_usuario textarea {
+    font-family: var(--fonte-texto);
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.sugestao_usuario textarea {
+    resize: none;
+}
+
+.sugestao_usuario button {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sugestao_usuario button:hover {
+    background-color: var(--cor-destaque);
+}

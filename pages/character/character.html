@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300..700&family=Sansation:wght@400;700&display=swap"
+        rel="stylesheet"
+    />
+
+    <!-- Estilos da página de personagem -->
+    <link rel="stylesheet" href="../../../styles/character/character.css" />
+    <link rel="stylesheet" href="../../../styles/character/character-tablet.css" />
+    <link rel="stylesheet" href="../../../styles/character/character-phone.css" />
+
+    <title>Personagem | REPOCOMICS</title>
+</head>
+<body>
+    <div id="header"></div>
+
+    <main class="pagina_personagem">
+        <section class="intro_personagem" id="introPersonagem"></section>
+        <hr />
+
+        <section class="hqs_personagem">
+            <h2>Guia de Leitura</h2>
+            <div class="tabela_scroll">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Capa</th>
+                            <th>Título</th>
+                            <th>Ano</th>
+                            <th>Link</th>
+                            <th class="fav-column">Favoritar</th>
+                        </tr>
+                    </thead>
+                    <tbody id="characterHqs"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <hr />
+
+        <section class="moments_section">
+            <h2>Momentos Marcantes & Curiosidades</h2>
+            <div class="moments_container" id="momentsContainer"></div>
+        </section>
+
+        <hr />
+
+        <section class="sugestao_hq">
+            <h2>Sentiu falta de alguma HQ?</h2>
+            <form>
+                <label for="titulo">Título da HQ:</label>
+                <input type="text" id="titulo" name="titulo" required />
+
+                <label for="mensagem">Nos diga por que ela é importante:</label>
+                <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+                <button type="submit">Enviar sugestão</button>
+            </form>
+        </section>
+    </main>
+
+    <div id="footer"></div>
+
+    <script src="/js/includeComponents.js"></script>
+    <script src="/js/characterLoad.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+@media (max-width: 900px) {
+    /* 
+        =========================
+            SEÇÃO INICIAL 
+        =========================
+    */
+    .container_initial {
+        grid-template-columns: 1.2fr 0.8fr;
+        gap: 16px;
+        background-size: cover;
+    }
+
+    .container_initial section.introduction h1 {
+        font-size: 2em;
+    }
+
+    .container_initial section.introduction .btn_publisher {
+        height: 48px;
+    }
+
+    .container_initial section.introduction .btn_publisher a {
+        font-size: 12px;
+    }
+
+    .container_initial section.imgs_profile_person {
+        gap: 10px;
+    }
+
+    .container_initial section.imgs_profile_person div {
+        width: 90px;
+        height: 90px;
+    }
+
+    /* 
+        =========================
+            SEÇÕES EM GERAL
+        =========================
+    */
+    .section_comics h2 {
+        font-size: 1.5em;
+        margin-bottom: 36px;
+    }
+
+    /* 
+        =========================
+            SEGUNDA SEÇÃO: PERSONAGENS 
+        =========================
+    */
+
+    .section_comics .list_characters {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 32px;
+    }
+
+    .section_comics .list_characters .character {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* 
+        =========================
+            TERCEIRA SEÇÃO: QUADRINHOS
+        =========================
+    */
+    .section_comics .list_comics {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+    }
+}

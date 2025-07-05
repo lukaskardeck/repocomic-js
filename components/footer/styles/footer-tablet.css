@@ -1,0 +1,14 @@
+@media (max-width: 900px) {
+    /* 
+        =========================
+            RODAPÉ
+        =========================
+    */
+    footer h3 {
+        font-size: 16px;
+    }
+    footer p,
+    footer a {
+        font-size: 12px;
+    }
+}

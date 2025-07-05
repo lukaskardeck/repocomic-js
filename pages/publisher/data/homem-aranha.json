@@ -1,0 +1,55 @@
+{
+  "id": "spider-man",
+  "nome": "Homem-Aranha",
+  "imagem": "./images/spiderman.png",
+  "descricao": "Criado por Stan Lee e Steve Ditko em 1962, o Homem-Aranha é o alter ego de Peter Parker, um jovem de Nova York que ganha poderes após ser picado por uma aranha radioativa. Com grandes poderes vêm grandes responsabilidades, e Peter usa suas habilidades para proteger a cidade e honrar a memória de seu tio Ben.",
+  "hqs": [
+    {
+      "capa": "./images/comics/1-amazing.png",
+      "titulo": "Amazing Fantasy #15",
+      "ano": 1962,
+      "link": "https://dn721609.ca.archive.org/0/items/amazing-fantasy-015-1962/Amazing%20Fantasy%20015%20%281962%29.pdf"
+    },
+    {
+      "capa": "./images/comics/2-the-amazing-31.png",
+      "titulo": "The Amazing Spider-Man #31",
+      "ano": 1965,
+      "link": "https://drive.google.com/file/d/1kU9PZPDZHHP-aR2OufoHWWrXFxDhRbO4/view"
+    },
+    {
+      "capa": "./images/comics/3-the-amazing-33.png",
+      "titulo": "The Amazing Spider-Man #33",
+      "ano": 1965,
+      "link": "https://drive.google.com/file/d/1RNOmCIig5O8SvCmzm3eDeQQjmOPmXmXc/view"
+    },
+    {
+      "capa": "./images/comics/4-the-amazing-39.png",
+      "titulo": "The Amazing Spider-Man #39",
+      "ano": 1966,
+      "link": "https://drive.google.com/file/d/1cMypRa14dZ2WtqeE8yK7NYkeXyN4l9cP/view"
+    },
+    {
+      "capa": "./images/comics/5-the-amazing-121.png",
+      "titulo": "The Amazing Spider-Man #121",
+      "ano": 1973,
+      "link": "https://drive.google.com/file/d/1neXpKrcoyujJjYFJdd_4jSAsn4Ccy86o/view"
+    }
+  ],
+  "momentos": [
+    {
+      "imagem": "./images/gwen-death.png",
+      "titulo": "A morte de Gwen Stacy",
+      "descricao": "Um dos momentos mais trágicos dos quadrinhos ocorreu em \"The Amazing Spider-Man #121\" (1973), quando Gwen Stacy morre durante um confronto com o Duende Verde. Este evento marcou profundamente Peter Parker e redefiniu o tom das HQs da Marvel."
+    },
+    {
+      "imagem": "./images/symbionte.png",
+      "titulo": "O traje simbionte",
+      "descricao": "Durante a saga \"Guerras Secretas\" (1984), Peter ganha um novo traje preto que mais tarde revela ser um simbionte alienígena. Isso abre caminho para o surgimento de Venom, um dos vilões mais icônicos do Homem-Aranha."
+    },
+    {
+      "imagem": "./images/spider-no-more.png",
+      "titulo": "“Spider-Man No More”",
+      "descricao": "Em \"The Amazing Spider-Man #50\" (1967), Peter decide abandonar sua identidade heroica. A imagem do traje no lixo se tornou um dos ícones visuais mais marcantes da história dos quadrinhos."
+    }
+  ]
+}
