@@ -1,0 +1,51 @@
+{
+    "publisher": "marvel",
+    "name": "Capitão América",
+    "slug": "captain-america",
+    "image": "characters/captain-america/images/captain-america.png",
+    "description": [
+        "Criado por Joe Simon e Jack Kirby em 1941, o Capitão América é o alter ego de Steve Rogers, um jovem franzino que se voluntaria para um experimento militar durante a Segunda Guerra Mundial. Após receber o Soro do Super-Soldado, Rogers se transforma no ápice da perfeição humana - mais forte, mais rápido e mais ágil do que qualquer outro homem.",
+        
+        "Símbolo máximo do patriotismo americano e dos ideais de liberdade, o Capitão América ficou preso no gelo por décadas antes de ser revivido nos dias atuais. Sua adaptação ao mundo moderno e seus conflitos morais contra a autoridade corrupta são marcas registradas do personagem."
+    ],
+    "comics": [
+        {
+            "number": 1,
+            "cover": "characters/captain-america/images/comics/1-captain-america-comics.png",
+            "title": "Captain America Comics #1",
+            "year": 1941,
+            "link": "https://readallcomics.com/captain-america-comics-001-1941/"
+        },
+        {
+            "number": 2,
+            "cover": "characters/captain-america/images/comics/2-avengers-4.png",
+            "title": "The Avengers #4",
+            "year": 1964,
+            "link": "https://readallcomics.com/the-avengers-004-1963/"
+        },
+        {
+            "number": 3,
+            "cover": "characters/captain-america/images/comics/3-winter-soldier.png",
+            "title": "Captain America #1 (2005)",
+            "year": 2005,
+            "link": "https://readallcomics.com/captain-america-001-2005/"
+        }
+    ],
+    "moments": [
+        {
+            "title": "Origem no WWII",
+            "image": "characters/captain-america/images/moments/origem-wwii.png",
+            "description": "A transformação de Steve Rogers de um jovem franzino no super-soldado símbolo da América durante a Segunda Guerra Mundial."
+        },
+        {
+            "title": "O Retorno dos Vingadores",
+            "image": "characters/captain-america/images/moments/retorno-vingadores.png",
+            "description": "Após décadas congelado, Cap é encontrado pelos Vingadores em Avengers #4 (1964), marcando seu retorno ao Universo Marvel moderno."
+        },
+        {
+            "title": "Winter Soldier",
+            "image": "characters/captain-america/images/moments/winter-soldier.png",
+            "description": "A revelação que Bucky Barnes sobreviveu como o assassino Winter Soldier é uma das histórias mais impactantes do personagem."
+        }
+    ]
+}

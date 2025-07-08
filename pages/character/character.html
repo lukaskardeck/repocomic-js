@@ -4,18 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300..700&family=Sansation:wght@400;700&display=swap"
-        rel="stylesheet"
-    />
-
-    <!-- Estilos da página de personagem -->
-    <link rel="stylesheet" href="../../../styles/character/character.css" />
-    <link rel="stylesheet" href="../../../styles/character/character-tablet.css" />
-    <link rel="stylesheet" href="../../../styles/character/character-phone.css" />
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/pages/character/styles/character.css">
+    <link rel="stylesheet" href="/pages/character/styles/character-tablet.css">
+    <link rel="stylesheet" href="/pages/character/styles/character-phone.css">
 
     <title>Personagem | REPOCOMICS</title>
 </head>
@@ -23,9 +15,28 @@
     <div id="header"></div>
 
     <main class="pagina_personagem">
-        <section class="intro_personagem" id="introPersonagem"></section>
+        <!-- 1. Apresentação do personagem -->
+        <section class="intro_personagem">
+            <div class="profile_character">
+                <div id="characterImage" class="profile_img"></div>
+                <h1 id="characterName"></h1>
+            </div>
+            <div class="add-favorite">
+                <label class="favorite-character-toggle" for="favorite-character">
+                    <input type="checkbox" id="favorite-character" hidden />
+                    <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                    <span class="favorite-text">Adicionar aos favoritos</span>
+                </label>
+            </div>
+
+            <div id="characterDescription"></div>
+        </section>
+
         <hr />
 
+        <!-- 2. Lista de HQs em formato de tabela -->
         <section class="hqs_personagem">
             <h2>Guia de Leitura</h2>
             <div class="tabela_scroll">
@@ -40,20 +51,22 @@
                             <th class="fav-column">Favoritar</th>
                         </tr>
                     </thead>
-                    <tbody id="characterHqs"></tbody>
+                    <tbody id="comicsTableBody"></tbody>
                 </table>
             </div>
         </section>
 
         <hr />
 
+        <!-- 3. Momentos marcantes e curiosidades -->
         <section class="moments_section">
             <h2>Momentos Marcantes & Curiosidades</h2>
-            <div class="moments_container" id="momentsContainer"></div>
+            <div id="momentsContainer" class="moments_container"></div>
         </section>
 
         <hr />
 
+        <!-- 4. Formulário de sugestão -->
         <section class="sugestao_hq">
             <h2>Sentiu falta de alguma HQ?</h2>
             <form>
@@ -70,7 +83,7 @@
 
     <div id="footer"></div>
 
-    <script src="/js/includeComponents.js"></script>
-    <script src="/js/characterLoad.js"></script>
+    <script src="/components/js/includeComponents.js"></script>
+    <script src="/pages/character/js/characterLoad.js"></script>
 </body>
 </html>

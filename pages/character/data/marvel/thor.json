@@ -1,0 +1,51 @@
+{
+    "publisher": "marvel",
+    "name": "Thor",
+    "slug": "thor",
+    "image": "characters/thor/images/thor.png",
+    "description": [
+        "Criado por Stan Lee, Larry Lieber e Jack Kirby em 1962, Thor é o deus nórdico do trovão baseado na mitologia escandinava. Banido para a Terra por seu pai Odin, Thor aprende humildade enquanto vive como o médico Donald Blake antes de recuperar seu martelo Mjolnir e seus poderes divinos.",
+        
+        "Thor personifica a ponte entre o divino e o humano, lutando para equilibrar seu orgulho de deus com a compaixão que aprendeu entre os mortais. Seus quadrinhos misturam mitologia épica com ficção científica cósmica de forma única no Universo Marvel."
+    ],
+    "comics": [
+        {
+            "number": 1,
+            "cover": "characters/thor/images/comics/1-journey-into-mystery.png",
+            "title": "Journey into Mystery #83",
+            "year": 1962,
+            "link": "https://readallcomics.com/journey-into-mystery-083-1962/"
+        },
+        {
+            "number": 2,
+            "cover": "characters/thor/images/comics/2-thor-337.png",
+            "title": "Thor #337",
+            "year": 1983,
+            "link": "https://readallcomics.com/thor-337-1983/"
+        },
+        {
+            "number": 3,
+            "cover": "characters/thor/images/comics/3-god-butcher.png",
+            "title": "Thor: God of Thunder #1",
+            "year": 2012,
+            "link": "https://readallcomics.com/thor-god-of-thunder-001-2012/"
+        }
+    ],
+    "moments": [
+        {
+            "title": "Origem em Journey into Mystery",
+            "image": "characters/thor/images/moments/origem-mjolnir.png",
+            "description": "A primeira aparição de Thor como Donald Blake encontrando o martelo Mjolnir em Journey into Mystery #83 (1962)."
+        },
+        {
+            "title": "Era Beta Ray Bill",
+            "image": "characters/thor/images/moments/beta-ray-bill.png",
+            "description": "Thor #337 (1983) introduz Beta Ray Bill, o primeiro ser digno além de Thor de levantar Mjolnir."
+        },
+        {
+            "title": "God Butcher",
+            "image": "characters/thor/images/moments/gorr.png",
+            "description": "A saga 'God Butcher' apresenta Gorr, um dos vilões mais marcantes da mitologia moderna de Thor."
+        }
+    ]
+}

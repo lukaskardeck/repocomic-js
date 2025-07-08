@@ -47,7 +47,7 @@ function personalizeHeader() {
     const fullPath = window.location.pathname + window.location.search;
     const logo = document.getElementById("logoLink");
 
-    // Detectar se estamos na home (com ou sem index.html explícito)
+    // Detectar se estamos na home
     const isHome =
         fullPath === "/" ||
         fullPath === "/index.html" ||

@@ -1,0 +1,51 @@
+{
+    "publisher": "marvel",
+    "name": "Hulk",
+    "slug": "hulk",
+    "image": "characters/hulk/images/hulk.png",
+    "description": [
+        "Criado por Stan Lee e Jack Kirby em 1962, o Hulk é a alter-ego do Dr. Bruce Banner, um cientista que, após ser exposto à radiação gama, se transforma em um monstro verde quando enfurecido. A dualidade entre a mente brilhante de Banner e a força bruta do Hulk cria um dos conflitos internos mais fascinantes dos quadrinhos.",
+        
+        "Mais do que um simples monstro, o Hulk representa os dilemas sobre controle, identidade e aceitação. Suas histórias frequentemente exploram temas de solidão, perseguição e a natureza da raiva humana."
+    ],
+    "comics": [
+        {
+            "number": 1,
+            "cover": "characters/hulk/images/comics/1-incredible-hulk.png",
+            "title": "The Incredible Hulk #1",
+            "year": 1962,
+            "link": "https://readallcomics.com/the-incredible-hulk-001-1962/"
+        },
+        {
+            "number": 2,
+            "cover": "characters/hulk/images/comics/2-planet-hulk.png",
+            "title": "Planet Hulk",
+            "year": 2006,
+            "link": "https://readallcomics.com/planet-hulk-2006/"
+        },
+        {
+            "number": 3,
+            "cover": "characters/hulk/images/comics/3-world-war-hulk.png",
+            "title": "World War Hulk",
+            "year": 2007,
+            "link": "https://readallcomics.com/world-war-hulk-001-2007/"
+        }
+    ],
+    "moments": [
+        {
+            "title": "A Criação do Hulk",
+            "image": "characters/hulk/images/moments/origem-gamma.png",
+            "description": "O acidente com a bomba gama que transformou Bruce Banner no monstro verde, mostrado pela primeira vez em Incredible Hulk #1 (1962)."
+        },
+        {
+            "title": "Planet Hulk",
+            "image": "characters/hulk/images/moments/planet-hulk.png",
+            "description": "Exilado da Terra, Hulk se torna um gladiador escravo e depois revolucionário no planeta Sakaar."
+        },
+        {
+            "title": "Hulk vs. Wolverine",
+            "image": "characters/hulk/images/moments/hulk-wolverine.png",
+            "description": "O lendário primeiro confronto entre Hulk e Wolverine em Incredible Hulk #181 (1974)."
+        }
+    ]
+}

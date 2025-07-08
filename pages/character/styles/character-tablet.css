@@ -1,0 +1,55 @@
+@media (max-width: 900px) {
+    /* 
+    =========================
+        ESTRUTURA PRINCIPAL
+    =========================
+*/
+
+    /* Estrutura geral */
+    .pagina_personagem {
+        padding: 40px 0px;
+        width: 95%;
+    }
+
+    .pagina_personagem h2 {
+        font-size: 2em;
+    }
+
+    /* Seção de introdução */
+    .intro_personagem h1 {
+        font-size: 2.6em;
+    }
+
+    .intro_personagem .profile_img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .intro_personagem > #characterDescription {
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+
+    /* 
+    =========================
+        SEÇÃO DA TABELA DOS QUADRINHOS
+    =========================
+*/
+    .hqs_personagem .hq_capa {
+        width: 110px;
+        height: 165px;
+        background-color: #fff;
+        background-size: cover;
+        background-position: center;
+        border-radius: 4px;
+    }
+
+    /* 
+    =========================
+        FORMULÁRIO DE SUGESTÃO 
+    =========================
+*/
+    .sugestao_hq {
+        width: 100%;
+    }
+}
