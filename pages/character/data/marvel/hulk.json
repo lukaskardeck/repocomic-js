@@ -1,5 +1,6 @@
 {
     "publisher": "marvel",
+    "type": "character",
     "name": "Hulk",
     "slug": "hulk",
     "image": "characters/hulk/images/hulk.png",

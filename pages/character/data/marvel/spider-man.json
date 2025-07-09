@@ -1,5 +1,6 @@
 {
     "publisher": "marvel",
+    "type": "character",
     "name": "Homem-Aranha",
     "slug": "spider-man",
     "image": "images/spiderman.png",

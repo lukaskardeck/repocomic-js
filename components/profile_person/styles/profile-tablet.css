@@ -1,0 +1,38 @@
+@media (max-width: 900px) {
+    .profile-section {
+        margin-bottom: 1.5rem;
+    }
+
+    .profile-container {
+        margin-bottom: 1.5rem;
+    }
+
+    /* Ajustes para personagens */
+    .profile-character .profile-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* Ajustes para equipes */
+    .profile-team .profile-img {
+        height: 380px;
+    }
+
+    .profile-title {
+        font-size: 2.5em;
+    }
+
+    .profile-description {
+        font-size: 16px;
+        line-height: 1.8em;
+    }
+
+    .add-favorite {
+        margin: 1em auto;
+    }
+
+    .favorite-toggle .star-icon {
+        width: 22px;
+        height: 22px;
+    }
+}

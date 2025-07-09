@@ -1,5 +1,6 @@
 {
     "publisher": "marvel",
+    "type": "character",
     "name": "Thor",
     "slug": "thor",
     "image": "characters/thor/images/thor.png",

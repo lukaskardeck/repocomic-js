@@ -47,19 +47,19 @@
       "name": "Vingadores",
       "slug": "avengers",
       "image": "team/avengers/images/avengers.png",
-      "link": "/pages/team/team.html?team=avengers&publisher=marvel"
+      "link": "/pages/character/character.html?character=avengers&publisher=marvel"
     },
     {
       "name": "X-Men",
       "slug": "x-men",
       "image": "team/xmen/images/xmen.png",
-      "link": "/pages/team/team.html?team=x-men&publisher=marvel"
+      "link": "/pages/character/character.html?character=x-men&publisher=marvel"
     },
     {
       "name": "Guardiões da Galáxia",
       "slug": "guardians",
       "image": "team/guardians/images/guardians.png",
-      "link": "/pages/team/team.html?team=guardians&publisher=marvel"
+      "link": "/pages/character/character.html?character=guardians&publisher=marvel"
     }
   ]
 }

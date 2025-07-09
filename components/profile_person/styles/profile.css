@@ -1,0 +1,105 @@
+/* Estilos base comuns */
+.profile-section {
+    margin-bottom: 2rem;
+}
+
+.profile-container {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.profile-img {
+    background-size: cover;
+    background-position: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
+
+.profile-title {
+    font-size: 3em;
+    color: var(--cor-destaque);
+    text-align: center;
+    text-shadow: 3px 3px 0 var(--cor-terciaria);
+    margin: 0.5em 0;
+}
+
+.profile-description {
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 3em;
+    line-height: 2em;
+    margin: 0 auto;
+}
+
+/* Estilos específicos para personagens */
+.profile-character .profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+/* Estilos específicos para equipes */
+.profile-team .profile-img {
+    width: 100%;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-team .profile-title {
+    color: white;
+    position: relative;
+    z-index: 2;
+    padding: 0 20px;
+}
+
+/* Botão de favoritar (estilos comuns) */
+.add-favorite {
+    display: inline-flex;
+    justify-content: center;
+    margin: 1.5em auto;
+    width: 100%;
+}
+
+.favorite-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.favorite-toggle .favorite-text {
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.5);
+    transition: color 0.3s;
+}
+
+.favorite-toggle:hover {
+    color: #f39c12;
+}
+
+.favorite-toggle:hover .favorite-text {
+    color: #f39c12;
+}
+
+.favorite-toggle .star-icon {
+    width: 24px;
+    height: 24px;
+    stroke: rgba(255, 255, 255, 0.5);
+    fill: none;
+    transition: all 0.3s;
+}
+
+.favorite-toggle:hover .star-icon {
+    stroke: #f39c12;
+    transform: scale(1.1);
+}
+
+.favorite-toggle input[type="checkbox"]:checked + .star-icon {
+    fill: #f39c12;
+    stroke: #f39c12;
+}

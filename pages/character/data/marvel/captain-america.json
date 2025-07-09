@@ -1,5 +1,6 @@
 {
     "publisher": "marvel",
+    "type": "character",
     "name": "Capitão América",
     "slug": "captain-america",
     "image": "characters/captain-america/images/captain-america.png",

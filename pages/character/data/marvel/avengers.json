@@ -1,0 +1,52 @@
+{
+    "publisher": "marvel",
+    "type": "team",
+    "name": "Vingadores",
+    "slug": "avengers",
+    "image": "teams/avengers/images/avengers-banner.png",
+    "description": [
+        "Criada por Stan Lee e Jack Kirby em 1963, os Vingadores são a principal equipe de super-heróis da Marvel, reunindo os seres mais poderosos da Terra para enfrentar ameaças que nenhum deles poderia derrotar sozinho. A formação original incluía Homem de Ferro, Thor, Hulk, Homem-Formiga e Vespa, com o Capitão América se juntando pouco depois.",
+        
+        "Com o lema 'Vingadores Unidos!', a equipe passou por diversas formações ao longo dos anos, sempre representando os ideais de coragem e trabalho em equipe. Seus maiores confrontos incluem as Guerras Kree-Skrull, a Saga do Golpe e a Guerra Civil dos Vingadores."
+    ],
+    "comics": [
+        {
+            "number": 1,
+            "cover": "teams/avengers/images/comics/avengers-1.jpg",
+            "title": "The Avengers #1",
+            "year": 1963,
+            "link": "https://readallcomics.com/the-avengers-001-1963/"
+        },
+        {
+            "number": 2,
+            "cover": "teams/avengers/images/comics/avengers-4.jpg",
+            "title": "The Avengers #4",
+            "year": 1964,
+            "link": "https://readallcomics.com/the-avengers-004-1963/"
+        },
+        {
+            "number": 3,
+            "cover": "teams/avengers/images/comics/ultron.jpg",
+            "title": "Avengers: Rage of Ultron",
+            "year": 2015,
+            "link": "https://readallcomics.com/avengers-rage-of-ultron-2015/"
+        }
+    ],
+    "moments": [
+        {
+            "title": "Formação Original",
+            "image": "teams/avengers/images/moments/formation.jpg",
+            "description": "A primeira reunião dos Vingadores em 1963 para combater Loki, estabelecendo a equipe mais poderosa da Terra."
+        },
+        {
+            "title": "Guerra Kree-Skrull",
+            "image": "teams/avengers/images/moments/kree-skrull.jpg",
+            "description": "O épico conflito interestelar que expandiu o escopo cósmico dos Vingadores (Avengers #89-97, 1971-72)."
+        },
+        {
+            "title": "Morte do Visão",
+            "image": "teams/avengers/images/moments/vision.jpg",
+            "description": "O emocionante arco 'Vingadores: A Queda' onde o Visão é desmontado (Avengers #254-260, 1985)."
+        }
+    ]
+}

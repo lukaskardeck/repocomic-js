@@ -1,0 +1,69 @@
+@media (max-width: 600px) {
+    .profile-section {
+        margin-bottom: 4vw;
+    }
+
+    .profile-container {
+        margin-bottom: 4vw;
+    }
+
+    /* Personagens */
+    .profile-character .profile-img {
+        width: 50vw;
+        height: 50vw;
+    }
+
+    /* Equipes */
+    .profile-team .profile-img {
+        height: 60vw;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .profile-title {
+        font-size: 7vw;
+        text-shadow: 0.7vw 0.7vw 0 var(--cor-terciaria);
+        margin: 2vw 0;
+    }
+
+    .profile-team .profile-title {
+        padding: 0 5vw;
+        font-size: 6vw;
+    }
+
+    .profile-description {
+        font-size: 3.8vw;
+        text-indent: 8vw;
+        line-height: 6vw;
+        padding: 0 3vw;
+    }
+
+    /* Botão de favoritos */
+    .add-favorite {
+        margin: 4vw auto;
+    }
+
+    .favorite-toggle {
+        gap: 2vw;
+    }
+
+    .favorite-toggle .favorite-text {
+        font-size: 3.8vw;
+    }
+
+    .favorite-toggle .star-icon {
+        width: 6vw;
+        height: 6vw;
+    }
+
+    /* Efeitos de hover adaptados para touch */
+    .favorite-toggle:active {
+        color: #f39c12;
+    }
+    .favorite-toggle:active .favorite-text {
+        color: #f39c12;
+    }
+    .favorite-toggle:active .star-icon {
+        stroke: #f39c12;
+        transform: scale(1.1);
+    }
+}

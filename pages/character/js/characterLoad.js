@@ -1,45 +1,47 @@
+import { renderProfile } from "../../../components/profile_person/js/profile.js";
+
 document.addEventListener("DOMContentLoaded", () => {
     const params = new URLSearchParams(window.location.search);
     const character = params.get("character");
     const publisher = params.get("publisher");
+    const team = params.get("team");
 
     if (!character || !publisher) {
-        console.error("Parâmetros 'character' ou 'publisher' não encontrados na URL.");
+        console.error("Parâmetros 'character' ou 'publisher' não encontrados");
+        window.location.href = "/pages/publisher/publisher.html";
         return;
     }
 
     fetch(`/pages/character/data/${publisher}/${character}.json`)
-        .then((res) => res.json())
-        .then((data) => {
-            // Verifica se o personagem pertence à editora correta
-            if (data.publisher !== publisher) {
-                throw new Error(`Este personagem pertence à editora ${data.publisher}`);
-            }
-            renderCharacterPage(data, publisher);
+        .then(res => {
+            if (!res.ok) throw new Error("Personagem não encontrado");
+            return res.json();
         })
-        .catch((err) => {
-            console.error("Erro ao carregar JSON:", err);
-            // Redireciona para a página da editora
+        .then(data => {
+            if (data.publisher !== publisher) {
+                throw new Error(`Personagem pertence à editora ${data.publisher}`);
+            }
+            
+            // 1. Renderiza o perfil componentizado
+            const profileElement = renderProfile(data, data.type);
+            document.querySelector('main').prepend(profileElement);
+            
+            // 2. Renderiza as outras seções
+            renderComics(data.comics);
+            renderMoments(data.moments);
+            
+            // 3. Atualizações adicionais
+            document.title = `${data.name} | REPOCOMICS`;
+            document.body.classList.add(publisher);
+        })
+        .catch(err => {
+            console.error("Erro:", err);
             window.location.href = `/pages/publisher/publisher.html?publisher=${publisher}`;
         });
 });
 
-function renderCharacterPage(data, publisher) {  
-    document.title = `${data.name} | REPOCOMICS`;
-
-    document.getElementById("characterName").textContent = data.name;
-    document.getElementById("characterImage").style.backgroundImage = `url('${data.image}')`;
-
-    const descriptionEl = document.getElementById("characterDescription");
-    descriptionEl.innerHTML = data.description.map(p => `<p>${p}</p>`).join("");
-    
-    renderComics(data.comics);
-    renderMoments(data.moments);
-}
-
 function renderComics(comics) {
     const tableBody = document.getElementById("comicsTableBody");
-    
     tableBody.innerHTML = comics.map(comic => `
         <tr>
             <td data-label="#">${comic.number}</td>
@@ -54,8 +56,8 @@ function renderComics(comics) {
             <td data-label="Favoritar" class="fav-column">
                 <label class="favorite-toggle">
                     <input type="checkbox" hidden />
-                    <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
                     </svg>
                 </label>
             </td>
@@ -65,7 +67,6 @@ function renderComics(comics) {
 
 function renderMoments(moments) {
     const container = document.getElementById("momentsContainer");
-    
     container.innerHTML = moments.map((moment, index) => `
         <div class="moment ${index % 2 !== 0 ? 'reverse' : ''}">
             <div class="moment_img" style="background-image: url('${moment.image}')"></div>

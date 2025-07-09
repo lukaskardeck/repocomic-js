@@ -1,6 +1,7 @@
 {
     "publisher": "marvel",
     "name": "Homem de Ferro",
+    "type": "character",
     "slug": "iron-man",
     "image": "characters/iron-man/images/iron-man.png",
     "description": [

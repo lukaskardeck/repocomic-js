@@ -15,21 +15,6 @@
         font-size: 2em;
     }
 
-    /* Seção de introdução */
-    .intro_personagem h1 {
-        font-size: 2.6em;
-    }
-
-    .intro_personagem .profile_img {
-        width: 220px;
-        height: 220px;
-    }
-
-    .intro_personagem > #characterDescription {
-        font-size: 1.1rem;
-        line-height: 1.6;
-    }
-
     /* 
     =========================
         SEÇÃO DA TABELA DOS QUADRINHOS
