@@ -31,67 +31,6 @@
         line-height: 7vw;
     }
 
-    /*
-    =========================
-        SEÇÕES: PERSONAGENS, EQUIPES, QUADRINHOS
-    =========================
-*/
-    .section_comics {
-        padding: 5vw 3vw;
-    }
-
-    .section_comics h2 {
-        font-size: 7vw;
-        margin-bottom: 4vw;
-    }
-
-    /* Grade de cards */
-    .list_characters {
-        grid-template-columns: 1fr;
-        gap: 3vw 2vw;
-    }
-
-    /* Cada card de personagem/equipe/quadrinho */
-    .character {
-        border-radius: 8px;
-        padding: 1.5vw;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-        transition: transform 0.3s ease;
-        width: 100%;
-        max-width: 65vw;
-        display: flex;
-        flex-direction: column;
-        gap: 2vw;
-    }
-
-    .character:hover {
-        cursor: pointer;
-        transform: scale(1.02);
-        background-color: var(--cor-destaque);
-    }
-
-    .character_img {
-        aspect-ratio: 4/5;
-    }
-
-    .character p {
-        font-size: 4vw;
-    }
-
-    /*
-    =========================
-        SEÇÃO: EQUIPE
-    =========================
-*/
-
-    .equipe {
-        max-width: 75vw;
-    }
-
-    .equipe_img {
-        aspect-ratio: 4/3;
-    }
-
     /* 
     =========================
         SUGESTÃO DE USUARIO

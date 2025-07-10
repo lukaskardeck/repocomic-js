@@ -1,0 +1,55 @@
+/* SEÇÕES */
+.section_comics {
+  padding: 48px 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.section_comics h2 {
+  font-size: 2rem;
+  margin-bottom: 32px;
+}
+
+/* Grade dos cards */
+.list_characters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px 12px;
+  justify-items: center;
+}
+
+/* Componente básico do card */
+.character {
+  background-color: var(--cor-secundaria);
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-decoration: none;
+  color: inherit;
+  align-items: center;
+}
+
+.character:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: var(--cor-destaque);
+}
+
+.character_img {
+  width: 100%;
+  background-color: #eee;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  aspect-ratio: 2 / 3;
+}
+
+.character p {
+  font-weight: bold;
+}

@@ -1,0 +1,14 @@
+@media (max-width: 600px) {
+    .equipes {
+        grid-template-columns: 1fr;
+        gap: 5vw 3vw;
+    }
+
+    .equipe {
+        max-width: 75vw;
+    }
+
+    .equipe_img {
+        aspect-ratio: 4/3;
+    }
+}

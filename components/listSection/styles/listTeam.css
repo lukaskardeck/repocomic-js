@@ -1,0 +1,13 @@
+/* Ajustes específicos da listagem de equipes */
+.equipes {
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 20px 12px;
+}
+
+.equipe {
+  max-width: 370px;
+}
+
+.equipe_img {
+  aspect-ratio: 4/3;
+}

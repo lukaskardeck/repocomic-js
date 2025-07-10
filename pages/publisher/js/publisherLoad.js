@@ -1,3 +1,6 @@
+import { includeComponent } from "../../../components/js/components.js";
+import { renderListSection } from "../../../components/listSection/js/listSection.js";
+
 document.addEventListener("DOMContentLoaded", () => {
     const params = new URLSearchParams(window.location.search);
     const publisher = params.get("publisher");
@@ -18,8 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
 function renderPublisherPage(data) {
     renderBanner(data.banner);
     renderDescription(data.description);
-    renderItems(data.characters, document.getElementById("characters"));
-    renderItems(data.teams, document.getElementById("teams"));
+    renderListCharacter(data.characters);
+    renderListTeams(data.teams);
 }
 
 function renderBanner(banner) {
@@ -33,19 +36,39 @@ function renderDescription(paragraphs) {
     intro.innerHTML = paragraphs.map(p => `<p>${p}</p>`).join("");
 }
 
-function renderItems(items, container) {
-    container.innerHTML = items.map(item => {
-        const style = `background-image: url('${item.image}')`;
-        const name = `<p>${item.name}</p>`;
-        const div = `
-            <div class="character_img${container.classList.contains("equipes") ? " equipe_img" : ""}" style="${style}"></div>
-            ${name}
-        `;
+function renderListCharacter(listCharacters) {
+    includeComponent("charactersSection", "/components/listSection/listSection.html", () => {
+        const container = document.getElementById("charactersSection");
+        renderListSection({
+            container,
+            items: listCharacters,
+            title: "Personagens",
+            stylePaths: [
+                "/components/listSection/styles/listBase.css",
+                "/components/listSection/styles/listBase-phone.css"
+            ]
+        });
+    });
+}
 
-        return item.link
-            ? `<a href="${item.link}" class="character">${div}</a>`
-            : `<a href="#" class="character">${div}</a>`;
-    }).join("");
+function renderListTeams(listTeams) {
+    includeComponent("teamsSection", "/components/listSection/listSection.html", () => {
+        const container = document.getElementById("teamsSection");
+        renderListSection({
+            container,
+            items: listTeams,
+            title: "Equipes",
+            stylePaths: [
+                "/components/listSection/styles/listBase.css",
+                "/components/listSection/styles/listBase-phone.css",
+                "/components/listSection/styles/listTeam.css",
+                "/components/listSection/styles/listTeam-phone.css"
+            ],
+            containerExtraClass: "equipes",
+            cardExtraClass: "equipe",
+            imgExtraClass: "equipe_img"
+        });
+    });
 }
 
 function capitalize(word) {
