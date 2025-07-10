@@ -1,6 +1,6 @@
 import { renderComicsTable } from "../../../components/comicsTable/js/comicsTable.js";
 import { includeComponent } from "../../../components/js/components.js";
-import { renderProfile } from "../../../components/profile_person/js/profile.js";
+import { renderProfile, attachFavoriteHandler } from "../../../components/profile_person/js/profile.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     const params = new URLSearchParams(window.location.search);
@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // Renderiza o perfil do personagem/equipe
             const profileElement = renderProfile(data, data.type);
             document.querySelector('main').prepend(profileElement);
+            attachFavoriteHandler(); 
 
             renderComics(data.comics);
             renderMoments(data.moments);
@@ -37,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .catch(err => {
             console.error("Erro:", err);
-            window.location.href = `/pages/publisher/publisher.html?publisher=${publisher}`;
+            // window.location.href = `/pages/publisher/publisher.html?publisher=${publisher}`;
         });
 });
 

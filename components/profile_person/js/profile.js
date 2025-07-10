@@ -1,3 +1,4 @@
+import { isFavorited, toggleFavorite } from '../../../pages/favorites/js/favManager.js';
 import { loadStyles } from '../../js/components.js';
 
 function renderProfile(data, type) {
@@ -21,7 +22,18 @@ function renderProfile(data, type) {
         
         <div class="add-favorite">
             <label class="favorite-toggle" for="favorite-item">
-                <input type="checkbox" id="favorite-item" hidden />
+                <input 
+                    type="checkbox" 
+                    id="favorite-item" 
+                    hidden
+                    data-slug="${data.slug}"
+                    data-name="${data.name}"
+                    data-publisher="${data.publisher}"
+                    data-type="${type}"
+                    data-image="${data.image}"
+                    data-link="${window.location.pathname + window.location.search}" 
+                />
+
                 <svg
                             class="star-icon"
                             xmlns="http://www.w3.org/2000/svg"
@@ -50,4 +62,26 @@ function renderProfile(data, type) {
     return profileSection;
 }
 
-export { renderProfile };
+function attachFavoriteHandler() {
+    const favInput = document.getElementById("favorite-item");
+    if (!favInput) return;
+
+    const item = {
+        slug: favInput.dataset.slug,
+        name: favInput.dataset.name,
+        publisher: favInput.dataset.publisher,
+        type: favInput.dataset.type,
+        image: favInput.dataset.image,
+        link: favInput.dataset.link,
+    };
+
+    favInput.checked = isFavorited(item.slug);
+
+    favInput.addEventListener("change", () => {
+        const isNowFav = toggleFavorite(item);
+        favInput.checked = isNowFav;
+    });
+}
+
+
+export { renderProfile, attachFavoriteHandler };
