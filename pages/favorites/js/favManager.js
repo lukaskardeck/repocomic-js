@@ -4,27 +4,26 @@ export function getFavorites() {
     return JSON.parse(localStorage.getItem(FAVORITES_KEY)) || [];
 }
 
-export function isFavorited(slug) {
-    const favorites = getFavorites();
-    return favorites.some(item => item.slug === slug);
+export function isFavorited(id) {
+    return getFavorites().some(item => item.id === id);
 }
 
 export function addFavorite(item) {
     const favorites = getFavorites();
-    if (!isFavorited(item.slug)) {
+    if (!isFavorited(item.id)) {
         favorites.push(item);
         localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
     }
 }
 
-export function removeFavorite(slug) {
-    const updated = getFavorites().filter(item => item.slug !== slug);
+export function removeFavorite(id) {
+    const updated = getFavorites().filter(item => item.id !== id);
     localStorage.setItem(FAVORITES_KEY, JSON.stringify(updated));
 }
 
 export function toggleFavorite(item) {
-    if (isFavorited(item.slug)) {
-        removeFavorite(item.slug);
+    if (isFavorited(item.id)) {
+        removeFavorite(item.id);
         return false;
     } else {
         addFavorite(item);

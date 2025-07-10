@@ -29,7 +29,12 @@ document.addEventListener("DOMContentLoaded", () => {
             document.querySelector('main').prepend(profileElement);
             attachFavoriteHandler(); 
 
-            renderComics(data.comics);
+            const dataComics = {
+                comics: data.comics,
+                publisher,
+                character
+            }
+            renderComics(dataComics);
             renderMoments(data.moments);
 
             // Atualizações adicionais
@@ -42,15 +47,16 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 });
 
-function renderComics(comics) {
+function renderComics(dataComics) {
     includeComponent("comicsSection", "/components/comicsTable/comicsTable.html", () => {
         const container = document.getElementById("comicsSection");
 
         renderComicsTable({
-            comics: comics,
+            comics: dataComics.comics,
             container: document.getElementById("comicsSection"),
             title: "HQs do Personagem",
-            // publisher: dataComics.publisher,
+            publisher: dataComics.publisher,
+            character: dataComics.character,
             columns: [
                 { key: "number", label: "#" },
                 { key: "cover", label: "Capa" },

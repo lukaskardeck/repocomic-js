@@ -31,7 +31,7 @@ function renderProfile(data, type) {
                     data-publisher="${data.publisher}"
                     data-type="${type}"
                     data-image="${data.image}"
-                    data-link="${window.location.pathname + window.location.search}" 
+                    data-link="${window.location.pathname + window.location.search}"
                 />
 
                 <svg
@@ -66,7 +66,11 @@ function attachFavoriteHandler() {
     const favInput = document.getElementById("favorite-item");
     if (!favInput) return;
 
+    const type = favInput.dataset.type;
+    if (type !== "character" && type !== "team") return;
+
     const item = {
+        id: favInput.dataset.slug,
         slug: favInput.dataset.slug,
         name: favInput.dataset.name,
         publisher: favInput.dataset.publisher,
@@ -75,7 +79,7 @@ function attachFavoriteHandler() {
         link: favInput.dataset.link,
     };
 
-    favInput.checked = isFavorited(item.slug);
+    favInput.checked = isFavorited(item.id);
 
     favInput.addEventListener("change", () => {
         const isNowFav = toggleFavorite(item);
