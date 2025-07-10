@@ -1,0 +1,16 @@
+@media (max-width: 900px) {
+    .hqs_personagem .hq_capa {
+        width: 90px;
+        height: 135px;
+        background-color: #fff;
+        background-size: cover;
+        background-position: center;
+        border-radius: 4px;
+    }
+
+    .hqs_personagem th,
+    .hqs_personagem td {
+        padding: 16px 10px;
+        font-size: 0.85rem;
+    }
+}

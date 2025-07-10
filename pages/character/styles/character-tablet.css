@@ -17,20 +17,6 @@
 
     /* 
     =========================
-        SEÇÃO DA TABELA DOS QUADRINHOS
-    =========================
-*/
-    .hqs_personagem .hq_capa {
-        width: 110px;
-        height: 165px;
-        background-color: #fff;
-        background-size: cover;
-        background-position: center;
-        border-radius: 4px;
-    }
-
-    /* 
-    =========================
         FORMULÁRIO DE SUGESTÃO 
     =========================
 */
