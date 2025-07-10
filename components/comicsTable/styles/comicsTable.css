@@ -3,9 +3,14 @@
         SEÇÃO DA TABELA DOS QUADRINHOS
     =========================
 */
+.hqs_personagem {
+    text-align: center;
+}
+
 .hqs_personagem h2 {
-    margin-bottom: 20px;
-    color: var(--cor-destaque);
+    margin-bottom: 32px;
+    color: var(--cor-texto);
+    text-align: center;
 }
 
 .tabela_scroll {
@@ -18,10 +23,12 @@
 .tabela_scroll::-webkit-scrollbar {
     width: 6px;
 }
+
 .tabela_scroll::-webkit-scrollbar-thumb {
     background-color: var(--cor-destaque);
     border-radius: 4px;
 }
+
 .tabela_scroll::-webkit-scrollbar-track {
     background-color: var(--cor-texto);
     border-radius: 4px;
@@ -91,7 +98,7 @@ th.fav-column {
     stroke: #f39c12;
 }
 
-.favorite-toggle input:checked + svg {
+.favorite-toggle input:checked+svg {
     fill: #f39c12;
     stroke: #f39c12;
 }

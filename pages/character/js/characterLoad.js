@@ -54,7 +54,7 @@ function renderComics(dataComics) {
         renderComicsTable({
             comics: dataComics.comics,
             container: document.getElementById("comicsSection"),
-            title: "HQs do Personagem",
+            title: "Guia de Leitura",
             publisher: dataComics.publisher,
             character: dataComics.character,
             columns: [

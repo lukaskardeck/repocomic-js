@@ -1,0 +1,88 @@
+main {
+    margin: auto;
+    width: 75%;
+    padding: 12px 0px;
+    margin-bottom: 24px;
+}
+
+main h2 {
+    margin-bottom: 4px;
+    font-size: 2rem;
+}
+
+/*
+    =========================
+        FILTRO DE SELEÇÃO
+    =========================
+*/
+
+.filtros-favoritos {
+    margin-bottom: 1em;
+}
+
+/* .filtros-favoritos h2 {
+    margin-bottom: 12px;
+} */
+
+.filtros-favoritos fieldset {
+    display: flex;
+    gap: 1em;
+    border: 1px solid var(--cor-texto);
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 6px;
+}
+
+.filtros-favoritos legend {
+    font-weight: bold;
+    color: var(--cor-destaque);
+}
+
+.filtros-favoritos label {
+    display: inline-flex;
+    /* Usar flexbox inline */
+    align-items: center;
+    /* Alinha verticalmente ao centro */
+    gap: 8px;
+    /* Espaço entre input e texto */
+    cursor: pointer;
+}
+
+.filtros-favoritos input[type="checkbox"],
+.filtros-favoritos input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    accent-color: var(--cor-destaque);
+    cursor: pointer;
+}
+
+.filtros-favoritos button {
+    background-color: var(--cor-destaque);
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.filtros-favoritos button:hover {
+    background-color: #ff4f4f;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: var(--cor-secundaria);
+    margin: 32px 0px;
+}
+
+
+.hqs_personagem, 
+#charactersSection.section_comics,
+#teamsSection.section_comics,
+#emptyStateSection {
+    padding: 0;
+    margin: auto;
+    text-align: center;
+}

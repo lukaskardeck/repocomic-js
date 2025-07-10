@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favoritos | REPOCOMICS</title>
+
+    <link rel="stylesheet" href="/styles/global.css" />
+    <link rel="stylesheet" href="/pages/favorites/styles/favorites.css">
+    <link rel="stylesheet" href="/pages/favorites/styles/favorites-tablet.css">
+    <link rel="stylesheet" href="/pages/favorites/styles/favorites-phone.css">
+
+    <!-- <script type="module" src="./js/favoritesPage.js" defer></script> -->
+</head>
+
+<body>
+    <!-- HEADER DINÂMICO -->
+    <header id="header"></header>
+
+    <main class="main-favoritos">
+        <!-- FILTROS -->
+        <section class="filtros-favoritos">
+            <h2>Filtrar Favoritos</h2>
+            <form id="favoritesFilterForm">
+                <!-- editora -->
+                <fieldset>
+                    <legend>Editora</legend>
+                    <label><input type="radio" name="publisher" value="all" checked />Todas</label>
+                    <label><input type="radio" name="publisher" value="marvel" />Marvel</label>
+                    <label><input type="radio" name="publisher" value="dc" />DC</label>
+                </fieldset>
+
+                <!-- tipo -->
+                <fieldset>
+                    <legend>Tipo</legend>
+                    <label><input type="checkbox" name="type" value="character" checked />Personagens</label>
+                    <label><input type="checkbox" name="type" value="team" checked />Equipes</label>
+                    <label><input type="checkbox" name="type" value="comic" checked />Quadrinhos</label>
+                </fieldset>
+
+                <!-- <button type="submit">Aplicar Filtros</button> -->
+            </form>
+        </section>
+
+        <!-- FAVORITOS: PERSONAGENS -->
+        <section class="section_comics" id="charactersSection"></section>
+
+        <!-- FAVORITOS: EQUIPES -->
+        <section class="section_comics" id="teamsSection"></section>
+
+        <!-- Tabela com os quadrinhos -->
+        <section id="comicsSection" class="hqs_personagem"></section>
+
+        <!-- Seção de mensagem para o caso de nenhum tipo tiver sido selecionado -->
+        <section id="emptyStateSection" style="display: none;">
+            <h2>Nenhum tipo selecionado</h2>
+            <p>Por favor, selecione ao menos um tipo para visualizar seus favoritos.</p>
+        </section>
+
+    </main>
+
+    <!-- FOOTER DINÂMICO -->
+    <footer id="footer"></footer>
+
+    <script type="module" src="/components/header/js/header.js"></script>
+    <script type="module" src="/components/footer/js/footer.js"></script>
+    <script type="module" src="/pages/favorites/js/favoritesLoad.js"></script>
+</body>
+
+</html>

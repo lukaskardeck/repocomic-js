@@ -1,0 +1,86 @@
+@media (max-width: 600px) {
+    main {
+        padding: 3vw 0;
+        margin-bottom: 4vw;
+    }
+
+    main h2 {
+        font-size: 5vw;
+        margin-bottom: 2vw;
+    }
+
+    /*
+    =========================
+        FILTRO DE SELEÇÃO
+    =========================
+*/
+
+    .filtros-favoritos {
+        margin-bottom: 1vw;
+    }
+
+    .filtros-favoritos fieldset {
+        display: flex;
+        gap: 3vw;
+        border: 0.2vw solid var(--cor-texto);
+        padding: 3vw;
+        margin-bottom: 3vw;
+        border-radius: 1vw;
+    }
+
+    .filtros-favoritos legend {
+        font-size: 4vw;
+    }
+
+    .filtros-favoritos label {
+        font-size: 3vw;
+        gap: 1vw;
+    }
+
+    .filtros-favoritos input[type="checkbox"],
+    .filtros-favoritos input[type="radio"] {
+        width: 4vw;
+        height: 4vw;
+    }
+
+    .filtros-favoritos button {
+        padding: 2vw 3vw;
+        border-radius: 1vw;
+        font-size: 3vw;
+    }
+
+    .filtros-favoritos button:hover {
+        background-color: #ff4f4f;
+    }
+
+    hr {
+        border: 0;
+        height: 0.4vw;
+        margin: 5vw 0;
+    }
+
+    .hqs_personagem h2.table_title {
+        font-size: 7vw;
+        margin-bottom: 4vw;
+    }
+
+    .hqs_personagem,
+    #charactersSection.section_comics,
+    #teamsSection.section_comics {
+        padding: 0;
+        margin: auto;
+        text-align: center;
+    }
+
+    #emptyStateSection {
+        padding: 8vw;
+    }
+
+    #emptyStateSection h2 {
+        font-size: 7vw;
+    }
+
+    #emptyStateSection p {
+        font-size: 4vw;
+    }
+}

@@ -30,7 +30,7 @@
 
 .moments_section h2 {
     text-align: center;
-    color: var(--cor-destaque);
+    color: var(--cor-texto);
     font-size: 2rem;
     margin-bottom: 3rem;
 }
