@@ -3,12 +3,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="stylesheet" href="/styles/global.css">
     <link rel="stylesheet" href="/styles/index.css" />
     <link rel="stylesheet" href="/styles/index-tablet.css" />
     <link rel="stylesheet" href="/styles/index-phone.css" />
-
     <title>REPOCOMICS</title>
 </head>
 <body>
@@ -16,7 +14,7 @@
     <header id="header"></header>
 
     <main>
-        <!-- APRESENTAÇÃO INICIAL DO SITE -->
+        <!-- APRESENTAÇÃO INICIAL DO SITE (mantida estática) -->
         <section class="container_initial">
             <section class="introduction">
                 <div>
@@ -40,49 +38,7 @@
         <section id="section_characters" class="section_comics">
             <h2>Os personagens prediletos da comunidade</h2>
             <div class="list_characters">
-                <a href="./pages/publisher/marvel/characters/spider-man/spider-man.html" class="character">
-                    <div
-                        class="character_img"
-                        style="background-image: url('./pages/publisher/marvel/characters/spider-man/images/spiderman.png');"
-                    ></div>
-                    <div class="character_name">
-                        <p>Homem-Aranha</p>
-                        <p>(Peter Parker)</p>
-                    </div>
-                </a>
-
-                <a href="#" class="character">
-                    <div
-                        class="character_img"
-                        style="background-image: url('./pages/publisher/marvel/characters/captain-america/images/captain-america.png');"
-                    ></div>
-                    <div class="character_name">
-                        <p>Capitão América</p>
-                        <p>(Steve Rogers)</p>
-                    </div>
-                </a>
-
-                <a href="./pages/publisher/dc_comics/characters/batman/batman.html" class="character">
-                    <div
-                        class="character_img"
-                        style="background-image: url('./pages/publisher/dc_comics/characters/batman/images/batman.png');"
-                    ></div>
-                    <div class="character_name">
-                        <p>Batman</p>
-                        <p>(Bruce Wayne)</p>
-                    </div>
-                </a>
-
-                <a href="#" class="character">
-                    <div
-                        class="character_img"
-                        style="background-image: url('./pages/publisher/dc_comics/characters/flash/images/flash.png');"
-                    ></div>
-                    <div class="character_name">
-                        <p>Flash</p>
-                        <p>(Barry Allen)</p>
-                    </div>
-                </a>
+                <!-- Conteúdo será inserido dinamicamente -->
             </div>
         </section>
 
@@ -90,49 +46,7 @@
         <section class="section_comics">
             <h2>Recomendados desta semana</h2>
             <div class="list_comics">
-                <a href="#" class="comic">
-                    <div
-                        class="comic_img"
-                        style="background-image: url('./pages/publisher/marvel/characters/spider-man/images/comics/3-the-amazing-33.png');"
-                    ></div>
-                    <div class="comic_description">
-                        <p>The Amazing Spider-Man #33</p>
-                        <p class="comic_year">1965</p>
-                    </div>
-                </a>
-
-                <a href="#" class="comic">
-                    <div
-                        class="comic_img"
-                        style="background-image: url('./pages/publisher/marvel/team/avengers/images/comics/2-avengers-4.png');"
-                    ></div>
-                    <div class="comic_description">
-                        <p>Avengers #4</p>
-                        <p class="comic_year">1964</p>
-                    </div>
-                </a>
-
-                <a href="#" class="comic">
-                    <div
-                        class="comic_img"
-                        style="background-image: url('./pages/publisher/dc_comics/characters/batman/images/comics/1-year-one.png');"
-                    ></div>
-                    <div class="comic_description">
-                        <p>Batman: Year One</p>
-                        <p class="comic_year">1987</p>
-                    </div>
-                </a>
-
-                <a href="#" class="comic">
-                    <div
-                        class="comic_img"
-                        style="background-image: url('./pages/publisher/dc_comics/team/justice/images/comics/1-ano-um.png');"
-                    ></div>
-                    <div class="comic_description">
-                        <p>JLA: Year one</p>
-                        <p class="comic_year">1998</p>
-                    </div>
-                </a>
+                <!-- Conteúdo será inserido dinamicamente -->
             </div>
         </section>
     </main>
@@ -143,5 +57,6 @@
     <!-- JavaScript -->
     <script type="module" src="/components/header/js/header.js"></script>
     <script type="module" src="/components/footer/js/footer.js"></script>
+    <script type="module" src="/js/index.js"></script>
 </body>
 </html>

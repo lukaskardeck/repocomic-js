@@ -1,8 +1,8 @@
 {
   "publisher": "marvel",
   "banner": {
-    "backgroundImage": "images/bg_marvel_black.jpg",
-    "logo": "images/marvel_comics.png",
+    "backgroundImage": "/pages/publisher/images/marvel/bg_marvel_black.jpg",
+    "logo": "/pages/publisher/images/marvel//marvel_comics.png",
     "alt": "Logo Marvel"
   },
   "description": [

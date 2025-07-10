@@ -1,0 +1,54 @@
+{
+  "favoriteCharacters": [
+    {
+      "name": "Homem-Aranha",
+      "realName": "Peter Parker",
+      "imageUrl": "/pages/publisher/marvel/characters/spider-man/images/spiderman.png",
+      "url": "/pages/character/character.html?character=spider-man&publisher=marvel"
+    },
+    {
+      "name": "Capitão América",
+      "realName": "Steve Rogers",
+      "imageUrl": "/pages/publisher/marvel/characters/captain-america/images/captain-america.png",
+      "url": "/pages/character/character.html?character=captain-america&publisher=marvel"
+    },
+    {
+      "name": "Batman",
+      "realName": "Bruce Wayne",
+      "imageUrl": "/pages/publisher/marvel/characters/spider-man/images/spiderman.png",
+      "url": "/pages/character/character.html?character=batman&publisher=dc"
+    },
+    {
+      "name": "Flash",
+      "realName": "Barry Allen",
+      "imageUrl": "/pages/publisher/marvel/characters/captain-america/images/captain-america.png",
+      "url": "/pages/character/character.html?character=flash&publisher=dc"
+    }
+  ],
+  "recommendedComics": [
+    {
+      "title": "The Amazing Spider-Man #33",
+      "year": "1965",
+      "imageUrl": "/pages/publisher/marvel/characters/spider-man/images/comics/3-the-amazing-33.png",
+      "url": "#"
+    },
+    {
+      "title": "Avengers #4",
+      "year": "1964",
+      "imageUrl": "/pages/publisher/dc_comics/characters/batman/images/comics/1-year-one.png",
+      "url": "#"
+    },
+    {
+      "title": "Batman: Year One",
+      "year": "1987",
+      "imageUrl": "/pages/publisher/marvel/characters/spider-man/images/comics/3-the-amazing-33.png",
+      "url": "#"
+    },
+    {
+      "title": "JLA: Year One",
+      "year": "1998",
+      "imageUrl": "/pages/publisher/dc_comics/characters/batman/images/comics/1-year-one.png",
+      "url": "#"
+    }
+  ]
+}
