@@ -72,15 +72,21 @@
         text-align: center;
     }
 
+    #charactersSection h2,
+    #teamsSection h2,
+    #comicsSection h2,
+    #emptyStateSection h2{
+        font-size: 6vw;
+    }
+
+    #charactersSection p,
+    #teamsSection p,
+    #comicsSection p,
+    #emptyStateSection p{
+        font-size: 4vw;
+    }
+
     #emptyStateSection {
         padding: 8vw;
-    }
-
-    #emptyStateSection h2 {
-        font-size: 7vw;
-    }
-
-    #emptyStateSection p {
-        font-size: 4vw;
     }
 }

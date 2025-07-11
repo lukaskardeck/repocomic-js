@@ -53,7 +53,8 @@ function renderComics(comics) {
     // Adiciona cada quadrinho dinamicamente
     comics.forEach(function(comic) {
         const comicElement = document.createElement('a');
-        comicElement.href = comic.comicUrl;
+        comicElement.href = comic.url;
+        comicElement.target = "_blank"
         comicElement.className = 'comic';
         
         comicElement.innerHTML = `
