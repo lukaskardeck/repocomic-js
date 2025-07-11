@@ -1,0 +1,57 @@
+{
+    "publisher": "dc",
+    "type": "character",
+    "name": "Batman",
+    "slug": "batman",
+    "image": "/images/publisher/dc/character/batman/batman.png",
+    "description": [
+        "Criado por Bob Kane e Bill Finger em 1939, o Batman é o alter ego de Bruce Wayne, um bilionário de Gotham City que, após testemunhar o assassinato de seus pais ainda criança, jurou combater o crime. Sem superpoderes, ele utiliza sua inteligência, treinamento físico, tecnologia avançada e medo como armas para proteger a cidade das sombras."
+    ],
+    "comics": [
+        {
+            "number": 1,
+            "cover": "/images/publisher/dc/character/batman/comics/year-one.png",
+            "title": "Batman: Year One",
+            "year": 1987,
+            "link": "https://drive.google.com/drive/folders/1OhaOtimfelX9aMGTeGpl-UGo2403Lk4e"
+        },
+        {
+            "number": 2,
+            "cover": "/images/publisher/dc/character/batman/comics/the-dark-knight-returns.png",
+            "title": "The Dark Knight Returns",
+            "year": 1986,
+            "link": "https://drive.google.com/drive/folders/14SeIIl7AFjcaPacfbbBMZRt-Yqc0Awkw"
+        },
+        {
+            "number": 3,
+            "cover": "/images/publisher/dc/character/batman/comics/batman-hush.png",
+            "title": "Batman: Hush",
+            "year": 2002,
+            "link": "https://drive.google.com/drive/folders/1NIxYNxspdum1qO4FHH0KcZYht5N7Kqwz"
+        },
+        {
+            "number": 4,
+            "cover": "/images/publisher/dc/character/batman/comics/killing-joke.png",
+            "title": "Batman: The Killing Joke",
+            "year": 1988,
+            "link": "https://www.hq-now.com/hq-reader/22/batman-a-piada-mortal/chapter/1/page/1"
+        }
+    ],
+    "moments": [
+        {
+            "title": "A morte de Jason Todd",
+            "image": "/images/publisher/dc/character/batman/moments/death-jason.png",
+            "description": "Em \"Batman: A Death in the Family\" (1988), o segundo Robin, Jason Todd, é brutalmente assassinado pelo Coringa. O acontecimento chocou os leitores, especialmente por ter sido decidido por votação popular, e deixou cicatrizes profundas em Batman."
+        },
+        {
+            "title": "Quebrado por Bane",
+            "image": "/images/publisher/dc/character/batman/moments/nightfall.png",
+            "description": "Na saga \"Knightfall\" (1993), Batman enfrenta Bane, que o derrota e quebra sua coluna vertebral. Incapacitado, Bruce Wayne passa o manto do morcego temporariamente, marcando uma das fases mais dramáticas e sombrias do personagem."
+        },
+        {
+            "title": "O retorno do Cavaleiro das Trevas",
+            "image": "/images/publisher/dc/character/batman/moments/knight.png",
+            "description": "Em \"The Dark Knight Returns\" (1986), de Frank Miller, um Bruce Wayne envelhecido sai da aposentadoria para combater o crime em uma Gotham decadente. A obra redefiniu o Batman como um símbolo sombrio e implacável, influenciando gerações."
+        }
+    ]
+}

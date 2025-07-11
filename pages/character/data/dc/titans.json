@@ -1,0 +1,28 @@
+{
+    "publisher": "dc",
+    "type": "team",
+    "name": "Jovens Titãs",
+    "slug": "titans",
+    "image": "/images/publisher/dc/team/titans/titans.png",
+    "description": [
+        "Os Jovens Titãs foram criados em 1964 pela DC Comics como uma equipe formada pelos ajudantes dos principais heróis: Robin, Kid Flash e Aqualad. Ao longo dos anos, a equipe cresceu e passou por várias reformulações, ganhando identidade própria e se tornando uma das equipes mais queridas da editora.",
+        
+        "A fase mais aclamada veio nos anos 1980 com 'The New Teen Titans', trazendo personagens como Estelar, Ravena, Mutano e Ciborgue. Além das lutas contra vilões, os Titãs se destacam pelas histórias focadas em amadurecimento, conflitos pessoais e os laços profundos de amizade entre os membros."
+    ],
+    "comics": [
+        {
+            "number": 1,
+            "cover": "/images/publisher/dc/team/titans/comics/the-new-teen-titans.png",
+            "title": "The New Teen Titans #1",
+            "year": 1980,
+            "link": "https://readallcomics.com/the-new-teen-titans-001-1980/"
+        }
+    ],
+    "moments": [
+        {
+            "title": "Contrato de Judas",
+            "image": "/images/publisher/dc/team/titans/moments/judas-contract.png",
+            "description": "Em 'The Judas Contract' (1984), os Titãs são traídos por Terra, uma integrante infiltrada que trabalhava secretamente para o Exterminador. Essa saga é um marco da equipe, explorando confiança, traição e maturidade com profundidade dramática rara nos quadrinhos da época."
+        }
+    ]
+}

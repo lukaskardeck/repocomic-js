@@ -1,0 +1,28 @@
+{
+    "publisher": "dc",
+    "type": "character",
+    "name": "Flash",
+    "slug": "flash",
+    "image": "/images/publisher/dc/character/flash/flash.png",
+    "description": [
+        "Flash é o nome usado por vários velocistas do universo DC, sendo Barry Allen o mais icônico. Criado por Robert Kanigher e Carmine Infantino em 1956, Barry é um cientista forense que adquire supervelocidade após um acidente envolvendo produtos químicos e um raio.",
+        
+        "Capaz de correr mais rápido que a luz, vibrar através da matéria e até viajar no tempo, o Flash é um dos pilares da Liga da Justiça e guardião do multiverso, muitas vezes lidando com ameaças que ultrapassam os limites da realidade."
+    ],
+    "comics": [
+        {
+            "number": 1,
+            "cover": "/images/publisher/dc/character/flash/comics/flash-rebirth.png",
+            "title": "The Flash: Rebirth",
+            "year": 2009,
+            "link": "https://readallcomics.com/the-flash-rebirth-2009/"
+        }
+    ],
+    "moments": [
+        {
+            "title": "Crise nas Infinitas Terras: o sacrifício de Barry",
+            "image": "/images/publisher/dc/character/flash/moments/flash-sacrifice.png",
+            "description": "Durante 'Crise nas Infinitas Terras' (1985), Barry Allen corre até a morte para impedir que a Antimatéria destrua o multiverso. Seu sacrifício heroico marca um dos momentos mais emocionantes da história da DC, permanecendo morto por décadas até seu retorno em Rebirth."
+        }
+    ]
+}

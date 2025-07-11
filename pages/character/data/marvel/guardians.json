@@ -1,0 +1,28 @@
+{
+    "publisher": "marvel",
+    "type": "team",
+    "name": "Guardiões da Galáxia",
+    "slug": "guardians",
+    "image": "/images/publisher/marvel/team/guardians/guardians.png",
+    "description": [
+        "Os Guardiões da Galáxia surgiram originalmente em 1969, mas foi somente em 2008, com uma nova formação liderada por Peter Quill (o Senhor das Estrelas), que a equipe se tornou popular. Essa versão reúne heróis e foras-da-lei de diferentes cantos do universo como Gamora, Drax, Rocket, Groot e outros.",
+        
+        "De desajustados espaciais a defensores da galáxia, os Guardiões se destacam por seu humor irreverente, fortes laços de amizade e batalhas contra ameaças cósmicas de grande escala. A equipe representa o espírito de redenção, união improvável e heroísmo além dos limites da Terra."
+    ],
+    "comics": [
+        {
+            "number": 1,
+            "cover": "/images/publisher/marvel/team/guardians/comics/guardians-2008.png",
+            "title": "Guardians of the Galaxy #1",
+            "year": 2008,
+            "link": "https://readallcomics.com/guardians-of-the-galaxy-001-2008/"
+        }
+    ],
+    "moments": [
+        {
+            "title": "Formação da nova equipe",
+            "image": "/images/publisher/marvel/team/guardians/moments/guardians-assemble.png",
+            "description": "Em \"Guardians of the Galaxy #1\" (2008), após os eventos de 'Annihilation: Conquest', Peter Quill reúne uma nova formação dos Guardiões para proteger o universo de ameaças cósmicas. Essa edição marca o nascimento da equipe moderna que conquistou os leitores e ganhou destaque no cinema."
+        }
+    ]
+}

@@ -3,7 +3,7 @@
     "name": "Homem de Ferro",
     "type": "character",
     "slug": "iron-man",
-    "image": "characters/iron-man/images/iron-man.png",
+    "image": "/images/publisher/marvel/character/ironman/iron-man.png",
     "description": [
         "Criado por Stan Lee, Larry Lieber e Don Heck em 1963, o Homem de Ferro é o alter ego de Tony Stark, um gênio bilionário, playboy e filantropo que constrói uma armadura tecnológica para salvar sua vida e combater o crime. Vítima de uma explosão de granada durante a Guerra do Vietnã, Stark desenvolve um reator arc para manter seu coração batendo e uma armadura high-tech para escapar do cativeiro.",
         
@@ -12,21 +12,21 @@
     "comics": [
         {
             "number": 1,
-            "cover": "characters/iron-man/images/comics/1-tales-of-suspense.png",
+            "cover": "/images/publisher/marvel/character/ironman/comics/tale-suspense.png",
             "title": "Tales of Suspense #39",
             "year": 1963,
             "link": "https://readallcomics.com/tales-of-suspense-039-1963/"
         },
         {
             "number": 2,
-            "cover": "characters/iron-man/images/comics/2-invincible-iron-man.png",
+            "cover": "/images/publisher/marvel/character/ironman/comics/the-invicible.png",
             "title": "The Invincible Iron Man #1",
             "year": 1968,
             "link": "https://readallcomics.com/the-invincible-iron-man-001-1968/"
         },
         {
             "number": 3,
-            "cover": "characters/iron-man/images/comics/3-demon-in-a-bottle.png",
+            "cover": "/images/publisher/marvel/character/ironman/comics/iron-man-128.png",
             "title": "Iron Man #128",
             "year": 1979,
             "link": "https://readallcomics.com/iron-man-128-1979/"
@@ -35,17 +35,17 @@
     "moments": [
         {
             "title": "Origem no Vietnã",
-            "image": "characters/iron-man/images/moments/origem-vietna.png",
+            "image": "/images/publisher/marvel/character/ironman/moments/origem.png",
             "description": "Na origem clássica, Tony Stark é capturado durante a Guerra do Vietnã e constrói a primeira armadura do Homem de Ferro para escapar. Esta história foi atualizada para o Afeganistão nas adaptações cinematográficas modernas."
         },
         {
             "title": "Demon in a Bottle",
-            "image": "characters/iron-man/images/moments/demon-in-a-bottle.png",
+            "image": "/images/publisher/marvel/character/ironman/moments/bottle.png",
             "description": "A saga 'Demon in a Bottle' (1979) mostra Stark lutando contra o alcoolismo, uma das primeiras vezes que os quadrinhos abordaram vícios de forma realista entre super-heróis."
         },
         {
             "title": "Armadura Extremis",
-            "image": "characters/iron-man/images/moments/extremis.png",
+            "image": "/images/publisher/marvel/character/ironman/moments/extremis.png",
             "description": "Na história Extremis (2005), Tony funde sua armadura com seu corpo em nível biológico, marcando uma evolução radical no personagem e inspirando o terceiro filme do MCU."
         }
     ]

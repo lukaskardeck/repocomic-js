@@ -1,0 +1,65 @@
+{
+  "publisher": "dc",
+  "banner": {
+    "backgroundImage": "/images/publisher/dc/bg_dc.png",
+    "logo": "/images/publisher/dc/logo_dc.png",
+    "alt": "Logo DC Comics"
+  },
+  "description": [
+    "Fundada em <strong>1934</strong> como National Allied Publications, a <strong>DC Comics</strong> é uma das maiores e mais antigas editoras de quadrinhos dos Estados Unidos. O nome 'DC' vem da popular série Detective Comics, que apresentou o icônico Batman. A DC revolucionou os quadrinhos com a introdução do Superman em 1938, criando todo o gênero de super-heróis como conhecemos hoje.",
+
+    "A DC é conhecida por seu universo rico e complexo, com personagens que se tornaram símbolos culturais como <strong>Batman</strong>, <strong>Superman</strong> e <strong>Mulher-Maravilha</strong>. Suas histórias frequentemente exploram temas mitológicos e questões sociais, com sagas marcantes como <em>Crise nas Infinitas Terras</em>, <em>Batman: O Cavaleiro das Trevas</em> e <em>Injustiça</em>. A DC também foi pioneira na criação do conceito de multiverso nos quadrinhos."
+  ],
+  "characters": [
+    {
+      "name": "Batman",
+      "slug": "batman",
+      "image": "/images/publisher/dc/character/batman/batman.png",
+      "link": "/pages/character/character.html?character=batman&publisher=dc"
+    },
+    {
+      "name": "Superman",
+      "slug": "superman",
+      "image": "/images/publisher/dc/character/superman/superman.png",
+      "link": "/pages/character/character.html?character=superman&publisher=dc"
+    },
+    {
+      "name": "Mulher-Maravilha",
+      "slug": "wonder",
+      "image": "/images/publisher/dc/character/wonder/wonder.png",
+      "link": "/pages/character/character.html?character=wonder&publisher=dc"
+    },
+    {
+      "name": "Flash",
+      "slug": "flash",
+      "image": "/images/publisher/dc/character/flash/flash.png",
+      "link": "/pages/character/character.html?character=flash&publisher=dc"
+    },
+    {
+      "name": "Lanterna Verde",
+      "slug": "lantern",
+      "image": "/images/publisher/dc/character/lantern/lantern.png",
+      "link": "/pages/character/character.html?character=lantern&publisher=dc"
+    }
+  ],
+  "teams": [
+    {
+      "name": "Liga da Justiça",
+      "slug": "justice",
+      "image": "/images/publisher/dc/team/justice/justice.png",
+      "link": "/pages/character/character.html?character=justice&publisher=dc"
+    },
+    {
+      "name": "Jovens Titãs",
+      "slug": "titans",
+      "image": "/images/publisher/dc/team/titans/titans.png",
+      "link": "/pages/character/character.html?character=titans&publisher=dc"
+    },
+    {
+      "name": "Esquadrão Suicida",
+      "slug": "suicide",
+      "image": "/images/publisher/dc/team/suicide/suicide.png",
+      "link": "/pages/character/character.html?character=suicide&publisher=dc"
+    }
+  ]
+}

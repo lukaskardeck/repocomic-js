@@ -3,7 +3,7 @@
     "type": "character",
     "name": "Capitão América",
     "slug": "captain-america",
-    "image": "characters/captain-america/images/captain-america.png",
+    "image": "/images/publisher/marvel/character/captain/captain.png",
     "description": [
         "Criado por Joe Simon e Jack Kirby em 1941, o Capitão América é o alter ego de Steve Rogers, um jovem franzino que se voluntaria para um experimento militar durante a Segunda Guerra Mundial. Após receber o Soro do Super-Soldado, Rogers se transforma no ápice da perfeição humana - mais forte, mais rápido e mais ágil do que qualquer outro homem.",
         
@@ -12,21 +12,21 @@
     "comics": [
         {
             "number": 1,
-            "cover": "characters/captain-america/images/comics/1-captain-america-comics.png",
+            "cover": "/images/publisher/marvel/character/captain/comics/captain-comics.png",
             "title": "Captain America Comics #1",
             "year": 1941,
             "link": "https://readallcomics.com/captain-america-comics-001-1941/"
         },
         {
             "number": 2,
-            "cover": "characters/captain-america/images/comics/2-avengers-4.png",
-            "title": "The Avengers #4",
-            "year": 1964,
-            "link": "https://readallcomics.com/the-avengers-004-1963/"
+            "cover": "/images/publisher/marvel/character/captain/comics/civil.png",
+            "title": "Civil War #1",
+            "year": 2006,
+            "link": "https://readallcomics.com/civil-war-001-2006/"
         },
         {
             "number": 3,
-            "cover": "characters/captain-america/images/comics/3-winter-soldier.png",
+            "cover": "/images/publisher/marvel/character/captain/comics/captain-01.png",
             "title": "Captain America #1 (2005)",
             "year": 2005,
             "link": "https://readallcomics.com/captain-america-001-2005/"
@@ -35,17 +35,17 @@
     "moments": [
         {
             "title": "Origem no WWII",
-            "image": "characters/captain-america/images/moments/origem-wwii.png",
+            "image": "/images/publisher/marvel/character/captain/moments/wwii.png",
             "description": "A transformação de Steve Rogers de um jovem franzino no super-soldado símbolo da América durante a Segunda Guerra Mundial."
         },
         {
-            "title": "O Retorno dos Vingadores",
-            "image": "characters/captain-america/images/moments/retorno-vingadores.png",
-            "description": "Após décadas congelado, Cap é encontrado pelos Vingadores em Avengers #4 (1964), marcando seu retorno ao Universo Marvel moderno."
+            "title": "Guerra Civil",
+            "image": "/images/publisher/marvel/character/captain/moments/civil.png",
+            "description": "Durante o arco 'Civil War', Steve Rogers se opõe ao Ato de Registro de Super-Humanos, entrando em conflito com Tony Stark. A divisão de heróis e seus ideais coloca o Capitão como símbolo da resistência à vigilância estatal."
         },
         {
             "title": "Winter Soldier",
-            "image": "characters/captain-america/images/moments/winter-soldier.png",
+            "image": "/images/publisher/marvel/character/captain/moments/winter.png",
             "description": "A revelação que Bucky Barnes sobreviveu como o assassino Winter Soldier é uma das histórias mais impactantes do personagem."
         }
     ]

@@ -1,0 +1,28 @@
+{
+    "publisher": "dc",
+    "type": "character",
+    "name": "Lanterna Verde",
+    "slug": "lantern",
+    "image": "/images/publisher/dc/character/lantern/lantern.png",
+    "description": [
+        "O título de Lanterna Verde é compartilhado por diversos personagens, mas Hal Jordan é o mais icônico. Criado em 1959, Hal é um piloto de testes escolhido pelo anel do poder para integrar a Tropa dos Lanternas Verdes, defensores do universo.",
+        
+        "Guiado pela força de vontade, Hal protege o setor 2814 com o poder de seu anel, que materializa qualquer coisa que ele imaginar. A mitologia cósmica dos Lanternas expandiu-se com entidades emocionais, guerras interplanetárias e disputas pelo equilíbrio universal."
+    ],
+    "comics": [
+        {
+            "number": 1,
+            "cover": "/images/publisher/dc/character/lantern/comics/sinestro-corps-war.png",
+            "title": "Green Lantern: Sinestro Corps War",
+            "year": 2007,
+            "link": "https://readallcomics.com/green-lantern-sinestro-corps-war-001/"
+        }
+    ],
+    "moments": [
+        {
+            "title": "Guerra dos Anéis",
+            "image": "/images/publisher/dc/character/lantern/moments/sinestro-corps.png",
+            "description": "Na saga 'Sinestro Corps War' (2007), Hal Jordan e a Tropa dos Lanternas Verdes enfrentam seu antigo mentor, Sinestro, e seu exército alimentado pelo medo. A batalha redefine o papel da força de vontade no universo e expande a guerra emocional entre luzes."
+        }
+    ]
+}

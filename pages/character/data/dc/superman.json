@@ -1,0 +1,28 @@
+{
+    "publisher": "dc",
+    "type": "character",
+    "name": "Superman",
+    "slug": "superman",
+    "image": "/images/publisher/dc/character/superman/superman.png",
+    "description": [
+        "Criado por Jerry Siegel e Joe Shuster em 1938, o Superman é o último filho de Krypton, enviado à Terra pouco antes de seu planeta natal ser destruído. Adotado por um casal do Kansas, cresceu como Clark Kent e desenvolveu poderes sobre-humanos sob o sol amarelo da Terra.",
+        
+        "Símbolo máximo da esperança e justiça, o Superman luta incansavelmente para proteger a humanidade, equilibrando sua identidade como herói e repórter. Seu legado atravessa gerações e o define como o arquétipo supremo dos super-heróis."
+    ],
+    "comics": [
+        {
+            "number": 1,
+            "cover": "/images/publisher/dc/character/superman/comics/all-star-superman.png",
+            "title": "All-Star Superman #1",
+            "year": 2005,
+            "link": "https://readallcomics.com/all-star-superman-001-2005/"
+        }
+    ],
+    "moments": [
+        {
+            "title": "A Morte do Superman",
+            "image": "/images/publisher/dc/character/superman/moments/death-of-superman.png",
+            "description": "Em 1992, na icônica HQ 'The Death of Superman', o herói enfrenta o monstro Apocalypse em uma batalha brutal nas ruas de Metrópolis. O confronto termina com a morte de ambos, abalando o mundo e mostrando que até o maior herói da Terra pode cair para proteger os inocentes."
+        }
+    ]
+}

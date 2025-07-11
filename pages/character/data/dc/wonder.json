@@ -1,0 +1,28 @@
+{
+    "publisher": "dc",
+    "type": "character",
+    "name": "Mulher-Maravilha",
+    "slug": "wonder",
+    "image": "/images/publisher/dc/character/wonder/wonder.png",
+    "description": [
+        "Criada por William Moulton Marston em 1941, a Mulher-Maravilha é Diana, princesa das Amazonas da ilha de Themyscira. Dotada de força, sabedoria, imortalidade e equipamentos mágicos como o Laço da Verdade, ela é uma das guerreiras mais poderosas da DC.",
+        
+        "Símbolo de empoderamento, compaixão e justiça, Diana luta por um mundo melhor unindo diplomacia e combate. Sua missão é unir os mundos dos deuses, humanos e amazonas com coragem e honra."
+    ],
+    "comics": [
+        {
+            "number": 1,
+            "cover": "/images/publisher/dc/character/wonder/comics/wonder-woman-rebirth.png",
+            "title": "Wonder Woman: Rebirth #1",
+            "year": 2016,
+            "link": "https://readallcomics.com/wonder-woman-rebirth-001-2016/"
+        }
+    ],
+    "moments": [
+        {
+            "title": "A Verdade Revelada",
+            "image": "/images/publisher/dc/character/wonder/moments/truth.png",
+            "description": "Na fase 'Rebirth', Diana descobre que parte de suas memórias foram manipuladas. A revelação desencadeia uma jornada de autoconhecimento, onde ela confronta deuses e verdades esquecidas, reafirmando seu papel como defensora da verdade acima de tudo."
+        }
+    ]
+}

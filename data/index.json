@@ -3,25 +3,25 @@
     {
       "name": "Homem-Aranha",
       "realName": "Peter Parker",
-      "imageUrl": "/pages/publisher/marvel/characters/spider-man/images/spiderman.png",
+      "imageUrl": "/images/publisher/marvel/character/spiderman/spiderman.png",
       "url": "/pages/character/character.html?character=spider-man&publisher=marvel"
     },
     {
       "name": "Capitão América",
       "realName": "Steve Rogers",
-      "imageUrl": "/pages/publisher/marvel/characters/captain-america/images/captain-america.png",
+      "imageUrl": "/images/publisher/marvel/character/captain/captain.png",
       "url": "/pages/character/character.html?character=captain-america&publisher=marvel"
     },
     {
       "name": "Batman",
       "realName": "Bruce Wayne",
-      "imageUrl": "/pages/publisher/marvel/characters/spider-man/images/spiderman.png",
+      "imageUrl": "/images/publisher/dc/character/batman/batman.png",
       "url": "/pages/character/character.html?character=batman&publisher=dc"
     },
     {
       "name": "Flash",
       "realName": "Barry Allen",
-      "imageUrl": "/pages/publisher/marvel/characters/captain-america/images/captain-america.png",
+      "imageUrl": "/images/publisher/dc/character/flash/flash.png",
       "url": "/pages/character/character.html?character=flash&publisher=dc"
     }
   ],

@@ -1,8 +1,8 @@
 {
   "publisher": "marvel",
   "banner": {
-    "backgroundImage": "/pages/publisher/images/marvel/bg_marvel_black.jpg",
-    "logo": "/pages/publisher/images/marvel//marvel_comics.png",
+    "backgroundImage": "/images/publisher/marvel/bg_marvel_black.jpg",
+    "logo": "/images/publisher/marvel//marvel_comics.png",
     "alt": "Logo Marvel"
   },
   "description": [
@@ -14,31 +14,31 @@
     {
       "name": "Homem-Aranha",
       "slug": "spider-man",
-      "image": "characters/spider-man/images/spiderman.png",
+      "image": "/images/publisher/marvel/character/spiderman/spiderman.png",
       "link": "/pages/character/character.html?character=spider-man&publisher=marvel"
     },
     {
       "name": "Homem de Ferro",
       "slug": "iron-man",
-      "image": "characters/iron-man/images/iron-man.png",
+      "image": "/images/publisher/marvel/character/ironman/iron-man.png",
       "link": "/pages/character/character.html?character=iron-man&publisher=marvel"
     },
     {
       "name": "Capitão América",
       "slug": "captain-america",
-      "image": "characters/captain-america/images/captain-america.png",
+      "image": "/images/publisher/marvel/character/captain/captain.png",
       "link": "/pages/character/character.html?character=captain-america&publisher=marvel"
     },
     {
       "name": "Hulk",
       "slug": "hulk",
-      "image": "characters/hulk/images/hulk.png",
+      "image": "/images/publisher/marvel/character/hulk/hulk.png",
       "link": "/pages/character/character.html?character=hulk&publisher=marvel"
     },
     {
       "name": "Thor",
       "slug": "thor",
-      "image": "characters/thor/images/thor.png",
+      "image": "/images/publisher/marvel/character/thor/thor.png",
       "link": "/pages/character/character.html?character=thor&publisher=marvel"
     }
   ],
@@ -46,19 +46,19 @@
     {
       "name": "Vingadores",
       "slug": "avengers",
-      "image": "team/avengers/images/avengers.png",
+      "image": "/images/publisher/marvel/team/avengers/avengers.png",
       "link": "/pages/character/character.html?character=avengers&publisher=marvel"
     },
     {
       "name": "X-Men",
       "slug": "x-men",
-      "image": "team/xmen/images/xmen.png",
+      "image": "/images/publisher/marvel/team/xmen/xmen.png",
       "link": "/pages/character/character.html?character=x-men&publisher=marvel"
     },
     {
       "name": "Guardiões da Galáxia",
       "slug": "guardians",
-      "image": "team/guardians/images/guardians.png",
+      "image": "/images/publisher/marvel/team/guardians/guardians.png",
       "link": "/pages/character/character.html?character=guardians&publisher=marvel"
     }
   ]

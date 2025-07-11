@@ -3,7 +3,7 @@
     "type": "team",
     "name": "Vingadores",
     "slug": "avengers",
-    "image": "teams/avengers/images/avengers-banner.png",
+    "image": "/images/publisher/marvel/team/avengers/avengers.png",
     "description": [
         "Criada por Stan Lee e Jack Kirby em 1963, os Vingadores são a principal equipe de super-heróis da Marvel, reunindo os seres mais poderosos da Terra para enfrentar ameaças que nenhum deles poderia derrotar sozinho. A formação original incluía Homem de Ferro, Thor, Hulk, Homem-Formiga e Vespa, com o Capitão América se juntando pouco depois.",
         
@@ -12,41 +12,41 @@
     "comics": [
         {
             "number": 1,
-            "cover": "teams/avengers/images/comics/avengers-1.jpg",
+            "cover": "/images/publisher/marvel/team/avengers/comics/avengers-1.png",
             "title": "The Avengers #1",
             "year": 1963,
             "link": "https://readallcomics.com/the-avengers-001-1963/"
         },
         {
             "number": 2,
-            "cover": "teams/avengers/images/comics/avengers-4.jpg",
+            "cover": "/images/publisher/marvel/team/avengers/comics/avengers-4.png",
             "title": "The Avengers #4",
             "year": 1964,
             "link": "https://readallcomics.com/the-avengers-004-1963/"
         },
         {
             "number": 3,
-            "cover": "teams/avengers/images/comics/ultron.jpg",
-            "title": "Avengers: Rage of Ultron",
-            "year": 2015,
+            "cover": "/images/publisher/marvel/team/avengers/comics/kree-skrull.png",
+            "title": "The Kree-Skrull war",
+            "year": 1972,
             "link": "https://readallcomics.com/avengers-rage-of-ultron-2015/"
         }
     ],
     "moments": [
         {
             "title": "Formação Original",
-            "image": "teams/avengers/images/moments/formation.jpg",
-            "description": "A primeira reunião dos Vingadores em 1963 para combater Loki, estabelecendo a equipe mais poderosa da Terra."
+            "image": "/images/publisher/marvel/team/avengers/moments/first.png",
+            "description": "Em \"The Avengers #1\" (1963), uma ameaça de Loki leva à união improvável de heróis como Homem de Ferro, Thor, Hulk, Homem-Formiga e Vespa. Esse encontro marcaria o início de uma das equipes mais importantes dos quadrinhos."
         },
         {
             "title": "Guerra Kree-Skrull",
-            "image": "teams/avengers/images/moments/kree-skrull.jpg",
-            "description": "O épico conflito interestelar que expandiu o escopo cósmico dos Vingadores (Avengers #89-97, 1971-72)."
+            "image": "/images/publisher/marvel/team/avengers/moments/kree-skrull.png",
+            "description": "Esse épico interestelar publicado entre \"Avengers #89–97\" (1971–72) colocou os Vingadores no centro de um conflito entre duas raças alienígenas. A saga elevou o escopo das histórias da equipe e consolidou sua importância cósmica no universo Marvel."
         },
         {
-            "title": "Morte do Visão",
-            "image": "teams/avengers/images/moments/vision.jpg",
-            "description": "O emocionante arco 'Vingadores: A Queda' onde o Visão é desmontado (Avengers #254-260, 1985)."
+            "title": "\"Sem mais mutantes\"",
+            "image": "/images/publisher/marvel/team/avengers/moments/no-more.png",
+            "description": "Na saga \"Dinastia M\" (2005), após um colapso mental de Wanda Maximoff, a Feiticeira Escarlate altera toda a realidade e, ao final, apaga os poderes de quase todos os mutantes. Uma das frases mais impactantes da história dos quadrinhos: \"No more mutants.\""
         }
     ]
 }

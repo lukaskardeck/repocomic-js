@@ -1,0 +1,28 @@
+{
+    "publisher": "marvel",
+    "type": "team",
+    "name": "X-Men",
+    "slug": "x-men",
+    "image": "/images/publisher/marvel/team/xmen/xmen.png",
+    "description": [
+        "Criados por Stan Lee e Jack Kirby em 1963, os X-Men são mutantes — humanos com habilidades especiais, frutos de uma evolução genética. Liderados por Charles Xavier, também conhecido como Professor X, a equipe luta por um mundo onde humanos e mutantes possam coexistir em paz.",
+        
+        "Mais do que apenas super-heróis, os X-Men sempre refletiram temas como preconceito, exclusão social e direitos civis. Suas histórias marcaram gerações ao abordarem conflitos profundos, disputas ideológicas e dilemas éticos em meio a batalhas épicas contra vilões como Magneto, Apocalipse e a Irmandade de Mutantes."
+    ],
+    "comics": [
+        {
+            "number": 1,
+            "cover": "/images/publisher/marvel/team/xmen/comics/giant.png",
+            "title": "Giant-Size X-Men #1",
+            "year": 1975,
+            "link": "https://readallcomics.com/giant-size-x-men-001-1975/"
+        }
+    ],
+    "moments": [
+        {
+            "title": "Renascimento dos X-Men",
+            "image": "/images/publisher/marvel/team/xmen/moments/renasc.png",
+            "description": "Em \"Giant-Size X-Men #1\" (1975), uma nova formação internacional dos X-Men surge para resgatar a equipe original. A edição introduziu personagens icônicos como Tempestade, Colossus, Noturno e Wolverine, revitalizando a franquia e iniciando a Era de Ouro dos mutantes."
+        }
+    ]
+}

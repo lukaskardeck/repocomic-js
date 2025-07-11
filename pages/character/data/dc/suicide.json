@@ -1,0 +1,28 @@
+{
+    "publisher": "dc",
+    "type": "team",
+    "name": "Esquadrão Suicida",
+    "slug": "suicide",
+    "image": "/images/publisher/dc/team/suicide/suicide.png",
+    "description": [
+        "O Esquadrão Suicida, também conhecido como Força-Tarefa X, é uma equipe formada por vilões da DC Comics recrutados pelo governo para missões secretas de altíssimo risco — geralmente em troca de redução de suas penas. A ideia foi revitalizada nos anos 1980 por John Ostrander.",
+        
+        "Comandados pela implacável Amanda Waller, os integrantes incluem nomes como Arlequina, Pistoleiro, Capitão Bumerangue e Crocodilo. A imprevisibilidade da equipe e o fato de qualquer um poder morrer a qualquer momento tornaram o Esquadrão uma leitura intensa, violenta e recheada de dilemas morais."
+    ],
+    "comics": [
+        {
+            "number": 1,
+            "cover": "/images/publisher/dc/team/suicide/comics/suicide-squad-1987.png",
+            "title": "Suicide Squad #1",
+            "year": 1987,
+            "link": "https://readallcomics.com/suicide-squad-001-1987/"
+        }
+    ],
+    "moments": [
+        {
+            "title": "Missão em Jotunheim",
+            "image": "/images/publisher/dc/team/suicide/moments/jotunheim.png",
+            "description": "Em uma missão insana em Jotunheim (recontada nos quadrinhos e adaptada nos cinemas), o Esquadrão enfrenta criaturas bizarras e forças hostis em uma instalação nazista abandonada. A missão termina em caos, traições e perdas — como de costume no Esquadrão Suicida."
+        }
+    ]
+}

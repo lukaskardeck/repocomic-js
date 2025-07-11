@@ -1,0 +1,50 @@
+{
+    "publisher": "dc",
+    "type": "team",
+    "name": "Liga da Justiça",
+    "slug": "liga-da-justica",
+    "image": "/images/publisher/dc/team/justice/justice.png",
+    "description": [
+        "A Liga da Justiça é uma equipe de super-heróis da DC Comics, formada em 1960, criada por Gardner Fox. A ideia era reunir os maiores heróis do universo DC em um grupo capaz de enfrentar ameaças que nenhum deles poderia enfrentar sozinho. A formação original incluía Superman, Batman, Mulher-Maravilha, Flash, Lanterna Verde, Aquaman e o Caçador de Marte. Com o tempo, a Liga cresceu e passou a contar com dezenas de heróis, como Arqueiro Verde, Zatanna, Shazam, Mulher-Gavião e muitos outros. Unidos pela missão de proteger a Terra (e, às vezes, o próprio multiverso), a Liga da Justiça se consolidou como um dos maiores símbolos de heroísmo, trabalho em equipe e esperança na cultura pop."
+    ],
+    "comics": [
+        {
+            "number": 1,
+            "cover": "/images/publisher/dc/team/justice/comics/ano-um.png",
+            "title": "JLA: Ano Um",
+            "year": 1998,
+            "link": "#"
+        },
+        {
+            "number": 2,
+            "cover": "/images/publisher/dc/team/justice/comics/torre-de-babel.png",
+            "title": "JLA: Torre de Babel",
+            "year": 2000,
+            "link": "#"
+        },
+        {
+            "number": 3,
+            "cover": "/images/publisher/dc/team/justice/comics/crise-infinita.png",
+            "title": "Crise nas Infinitas Terras",
+            "year": 1985,
+            "link": "#"
+        }
+    ],
+    "moments": [
+        {
+            "title": "A Liga apagou a mente do Batman",
+            "image": "/images/publisher/dc/team/justice/moments/mente-batman.png",
+            "description": "Em \"Identity Crisis\" (2004), é revelado que a Liga da Justiça apagou a memória do Batman após ele se opor à decisão do grupo de fazer o mesmo com o vilão Doutor Luz. O episódio mostra os dilemas éticos enfrentados pelos heróis e as consequências da manipulação mental dentro da própria equipe."
+        },
+        {
+            "title": "Flash reinicia o universo",
+            "image": "/images/publisher/dc/team/justice/moments/flashpoint.png",
+            "description": "Em \"Flashpoint\" (2011), Barry Allen volta no tempo para impedir o assassinato de sua mãe. Essa decisão altera completamente a linha temporal, criando uma realidade alternativa sombria onde a Liga da Justiça nunca existiu. O caos resultante leva a um reboot completo do universo DC, dando origem aos *Novos 52*. Um dos eventos mais impactantes e discutidos da história moderna da editora."
+        },
+        {
+            "title": "Batman sentado na Cadeira de Metrón",
+            "image": "/images/publisher/dc/team/justice/moments/metron.png",
+            "description": "Em \"Justice League #42\" (2015), Batman se senta na Cadeira de Metrón, um artefato cósmico que concede conhecimento ilimitado. Sua primeira pergunta? “Qual é o verdadeiro nome do Coringa?” — e a resposta o deixa em choque. Esse momento gerou mistério e especulação entre os fãs por anos."
+        }
+    ]
+}
