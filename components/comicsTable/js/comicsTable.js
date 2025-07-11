@@ -5,8 +5,6 @@ export function renderComicsTable({
     comics,
     container,
     title = "Guia de Leitura",
-    publisher,
-    character,
     columns = null
 }) {
     const titleEl = container.querySelector(".table_title");
@@ -57,7 +55,7 @@ export function renderComicsTable({
 
                 case "link":
                     return `<td data-label="Link">
-                                <a target="_blank" href="${comic.link}">Acessar</a>
+                                <a target="_blank" href="${comic.link}">Ler</a>
                             </td>`;
 
                 case "favorite":
@@ -72,8 +70,9 @@ export function renderComicsTable({
                                         data-cover="${comic.cover}" 
                                         data-link="${comic.link}" 
                                         data-year="${comic.year}"
-                                        data-publisher="${publisher}"                                        
-                                        data-character="${character}"                                        
+                                        data-publisher="${comic.publisher}"                                        
+                                        data-character-name="${comic.characterName}"                                        
+                                        data-character-href="${comic.characterHref}"                                        
                                         ${isChecked}                                    
                                     />
                                     <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -83,9 +82,14 @@ export function renderComicsTable({
                             </td>`;
 
                 case "publisher":
-                    return `<td data-label="Editora">${publisher || "-"}</td>`;
+                    return `<td data-label="Editora">${comic.publisher.toUpperCase() || "-"}</td>`;
+
+                case "character":
+                    return `<td data-label="Personagem">
+                                <a href="${comic.characterHref}">${capitalize(comic.characterName)}</a>
+                            </td>`;
                 default:
-                    return `<td data-label="${col.label}">-</td>`;
+                    return `<td data-label="${col.label || "-"}">${comic[col.key] || "-"}</td>`;
             }
         }).join("")}
             </tr>
@@ -114,7 +118,8 @@ export function attachFavoriteListeners() {
             cover: input.dataset.cover,
             link: input.dataset.link,
             publisher: input.dataset.publisher,
-            character: input.dataset.character,
+            characterName: input.dataset.characterName,
+            characterHref: input.dataset.characterHref,
             type: input.dataset.type || "comic"
         };
 
@@ -128,3 +133,9 @@ export function attachFavoriteListeners() {
         });
     });
 }
+
+function capitalize(str) {
+    if (!str) return "";
+    return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+}
+

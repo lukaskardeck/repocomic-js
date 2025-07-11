@@ -171,18 +171,27 @@ function renderFavoriteComics(comics) {
             return;
         }
 
+        const sortedComics = [...comics].sort((a, b) => {
+            return a.title.localeCompare(b.title, 'pt', { sensitivity: 'base' });
+        });
+
+        sortedComics.forEach((comic, index) => {
+            comic.number = index + 1;
+        });
+
         renderComicsTable({
-            comics,
+            comics: sortedComics,
             container,
             title: "Quadrinhos",
             columns: [
                 { key: "number", label: "#" },
+                { key: "character", label: "Personagem" },
                 { key: "cover", label: "Capa" },
                 { key: "title", label: "Título" },
                 { key: "year", label: "Ano" },
                 { key: "link", label: "Link" },
-                { key: "favorite", label: "Favoritar" }
             ]
         });
     });
 }
+

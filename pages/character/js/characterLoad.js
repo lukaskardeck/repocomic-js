@@ -27,13 +27,17 @@ document.addEventListener("DOMContentLoaded", () => {
             // Renderiza o perfil do personagem/equipe
             const profileElement = renderProfile(data, data.type);
             document.querySelector('main').prepend(profileElement);
-            attachFavoriteHandler(); 
+            attachFavoriteHandler();
 
-            const dataComics = {
-                comics: data.comics,
+            const hrefCharacter = `/pages/character/character.html?character=${character}&publisher=${publisher}`;
+            const dataComics = data.comics.map(comic => ({
+                ...comic,
                 publisher,
-                character
-            }
+                characterName: character,
+                characterHref: hrefCharacter
+            }));
+            console.log(dataComics)
+
             renderComics(dataComics);
             renderMoments(data.moments);
 
@@ -49,21 +53,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function renderComics(dataComics) {
     includeComponent("comicsSection", "/components/comicsTable/comicsTable.html", () => {
-        const container = document.getElementById("comicsSection");
 
         renderComicsTable({
-            comics: dataComics.comics,
+            comics: dataComics,
             container: document.getElementById("comicsSection"),
             title: "Guia de Leitura",
-            publisher: dataComics.publisher,
-            character: dataComics.character,
             columns: [
                 { key: "number", label: "#" },
                 { key: "cover", label: "Capa" },
                 { key: "title", label: "Título" },
                 { key: "year", label: "Ano" },
                 { key: "link", label: "Link" },
-                // { key: "publisher", label: "Editora" },
                 { key: "favorite", label: "Favoritar" },
             ],
         });
